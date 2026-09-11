@@ -41,10 +41,22 @@
     "closedToday": "Bugün kapalı",
     "openToday": "Bugün açık",
     "weekdays": {
-      "0": "Pazar", "1": "Pazartesi", "2": "Salı", "3": "Çarşamba", "4": "Perşembe", "5": "Cuma", "6": "Cumartesi"
+      "0": "Pazar",
+      "1": "Pazartesi",
+      "2": "Salı",
+      "3": "Çarşamba",
+      "4": "Perşembe",
+      "5": "Cuma",
+      "6": "Cumartesi"
     },
     "weekdaysShort": {
-      "0": "Paz", "1": "Pzt", "2": "Sal", "3": "Çar", "4": "Per", "5": "Cum", "6": "Cmt"
+      "0": "Paz",
+      "1": "Pzt",
+      "2": "Sal",
+      "3": "Çar",
+      "4": "Per",
+      "5": "Cum",
+      "6": "Cmt"
     },
     "hours": "Çalışma saatleri",
     "address": "Adres",
@@ -85,9 +97,18 @@
     "firstTimeTitle": "Buradan başlayın",
     "firstTimeText": "Uygur mutfağı Orta Asya ile Çin arasında durur: hamur, kuzu, baharat ve bol taze sebze. İlk kez deniyorsanız bu üçünü sipariş edin. Birlikte bütün hikâyeyi anlatırlar.",
     "firstTimeSteps": {
-      "1": { "title": "Lagman", "text": "Kuzu etli ve sebzeli el çekmesi erişte. Bir Uygur mutfağının ölçüldüğü yemek." },
-      "2": { "title": "Polo", "text": "Pirinç, kuzu, havuç. Basit görünür, saatler ister. Tatlı, tuzlu, derin." },
-      "3": { "title": "Şiş kebap", "text": "Kömür ateşinde kuzu, kimyon, pul biber. Izgaradan doğrudan masanıza." }
+      "1": {
+        "title": "Lagman",
+        "text": "Kuzu etli ve sebzeli el çekmesi erişte. Bir Uygur mutfağının ölçüldüğü yemek."
+      },
+      "2": {
+        "title": "Polo",
+        "text": "Pirinç, kuzu, havuç. Basit görünür, saatler ister. Tatlı, tuzlu, derin."
+      },
+      "3": {
+        "title": "Şiş kebap",
+        "text": "Kömür ateşinde kuzu, kimyon, pul biber. Izgaradan doğrudan masanıza."
+      }
     },
     "firstTimeCta": "Tüm yemekleri gör",
     "craftEyebrow": "El emeği",
@@ -155,7 +176,7 @@
     },
     "notes": "Notlar (isteğe bağlı)",
     "notesHint": "Alerjiler, mama sandalyesi, tekerlekli sandalye, cam kenarı…",
-    "privacy": "Bilgilerimin rezervasyonun işlenmesi için saklanmasını kabul ediyorum. Ayrıntılar {link} içinde.",
+    "privacy": "Bilgilerimin rezervasyonun işlenmesi için saklanmasını kabul ediyorum. Ayrıntılar <link>gizlilik politikası</link> içinde.",
     "privacyLink": "gizlilik politikası",
     "submit": "Rezervasyonu onayla",
     "submitting": "Gönderiliyor…",
@@ -199,17 +220,38 @@
     "cuisineEyebrow": "Mutfak",
     "cuisineTitle": "Bilmeniz gereken dört şey",
     "cuisinePoints": {
-      "1": { "title": "Hamur esastır", "text": "Lagman kesilmez, çekilir. Mantı ve çüçüre kapatılır, samsa ve göşnan pişirilir. Hepsi her gün taze." },
-      "2": { "title": "Kuzu, kimyon, pul biber", "text": "Izgaranın temel baharatları. Çay ve çorbalarda yıldız anason, kişniş ve safran." },
-      "3": { "title": "Her şey helal", "text": "Helal sertifikalı et, domuz eti yok, yemeklerde alkol yok." },
-      "4": { "title": "Birlikte yemek", "text": "Büyük tabaklar ortaya gelir. Önce çay gelir. Bizimle oturan misafirdir, müşteri değil." }
+      "1": {
+        "title": "Hamur esastır",
+        "text": "Lagman kesilmez, çekilir. Mantı ve çüçüre kapatılır, samsa ve göşnan pişirilir. Hepsi her gün taze."
+      },
+      "2": {
+        "title": "Kuzu, kimyon, pul biber",
+        "text": "Izgaranın temel baharatları. Çay ve çorbalarda yıldız anason, kişniş ve safran."
+      },
+      "3": {
+        "title": "Her şey helal",
+        "text": "Helal sertifikalı et, domuz eti yok, yemeklerde alkol yok."
+      },
+      "4": {
+        "title": "Birlikte yemek",
+        "text": "Büyük tabaklar ortaya gelir. Önce çay gelir. Bizimle oturan misafirdir, müşteri değil."
+      }
     },
     "placesEyebrow": "Duvarlarımızdaki yerler",
     "placesTitle": "Kaşgar, Ürümçi, Turfan",
     "places": {
-      "kashgar": { "title": "Kaşgar", "text": "Taklamakan'ın batı ucundaki eski vaha şehri. Heytgah Camii, pazar günü pazarı, çayhaneler. Lagmanımız buradan gelir." },
-      "urumqi": { "title": "Ürümçi", "text": "Tanrı Dağları'nın eteğindeki başkent. Büyük mutfak, büyük tabaklar. Dapanji en bilinen yemeğidir." },
-      "turpan": { "title": "Turfan", "text": "En alçak ve en sıcak vaha. Üzüm, kuru üzüm, kavun. Polomuzdaki kuru üzümler onu hatırlatır." }
+      "kashgar": {
+        "title": "Kaşgar",
+        "text": "Taklamakan'ın batı ucundaki eski vaha şehri. Heytgah Camii, pazar günü pazarı, çayhaneler. Lagmanımız buradan gelir."
+      },
+      "urumqi": {
+        "title": "Ürümçi",
+        "text": "Tanrı Dağları'nın eteğindeki başkent. Büyük mutfak, büyük tabaklar. Dapanji en bilinen yemeğidir."
+      },
+      "turpan": {
+        "title": "Turfan",
+        "text": "En alçak ve en sıcak vaha. Üzüm, kuru üzüm, kavun. Polomuzdaki kuru üzümler onu hatırlatır."
+      }
     },
     "teamEyebrow": "Ekip",
     "teamTitle": "Karahan'ın arkasındakiler",
@@ -221,16 +263,29 @@
     "lead": "Aile kutlamaları, şirket yemekleri, doğum günleri. {min} ve üzeri gruplar için paylaşımlık menüler hazırlıyoruz. İsteğe bağlı olarak size özel bir alan ayırıyoruz.",
     "offerEyebrow": "Sunduklarımız",
     "offers": {
-      "1": { "title": "Grup menüsü", "text": "Paylaşımlık üç–dört kap, {min} kişiden itibaren. Başlangıçlar, samsa, ızgara, masanın ortası için lagman ve polo, çay ve tatlı." },
-      "2": { "title": "Tüm restoran", "text": "{seats} kişiye kadar etkinlikler için, genellikle Pazar ve Pazartesi günleri. Tarih sorun." },
-      "3": { "title": "Catering", "text": "Ofis ve kutlamalar için samsa, mantı, salata ve polo. Winterthur ve çevresinde teslim alma veya teslimat." }
+      "1": {
+        "title": "Grup menüsü",
+        "text": "Paylaşımlık üç–dört kap, {min} kişiden itibaren. Başlangıçlar, samsa, ızgara, masanın ortası için lagman ve polo, çay ve tatlı."
+      },
+      "2": {
+        "title": "Tüm restoran",
+        "text": "{seats} kişiye kadar etkinlikler için, genellikle Pazar ve Pazartesi günleri. Tarih sorun."
+      },
+      "3": {
+        "title": "Catering",
+        "text": "Ofis ve kutlamalar için samsa, mantı, salata ve polo. Winterthur ve çevresinde teslim alma veya teslimat."
+      }
     },
     "formTitle": "Talep gönderin",
     "formText": "Bir iş günü içinde dönüş yaparız.",
     "date": "Tercih edilen tarih",
     "guests": "Kişi sayısı",
     "type": "Etkinlik türü",
-    "types": { "group": "Grup rezervasyonu", "private": "Tüm restoran", "catering": "Catering" },
+    "types": {
+      "group": "Grup rezervasyonu",
+      "private": "Tüm restoran",
+      "catering": "Catering"
+    },
     "message": "Mesaj",
     "submit": "Talep gönder",
     "success": "Teşekkürler. Talebiniz bize ulaştı, bir iş günü içinde dönüş yaparız.",
@@ -239,7 +294,11 @@
   "gallery": {
     "title": "Galeri",
     "lead": "Salon, mutfak ve yemekler. «Örnek görsel» işaretli görseller, açılıştan sonra kendi fotoğraflarımızla değiştirilecek geçici görsellerdir.",
-    "sections": { "interior": "Salon", "kitchen": "Mutfak", "dishes": "Yemekler" }
+    "sections": {
+      "interior": "Salon",
+      "kitchen": "Mutfak",
+      "dishes": "Yemekler"
+    }
   },
   "contact": {
     "title": "İletişim & Ulaşım",

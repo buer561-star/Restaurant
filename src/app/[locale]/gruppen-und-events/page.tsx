@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
+import { localizedAlternates } from "@/lib/seo";
 import { Header } from "@/components/Header";
 import { PageHero } from "@/components/PageHero";
 import { Section, SectionHeading } from "@/components/Section";
@@ -13,7 +14,7 @@ import { site } from "@/data/site";
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta" });
-  return { title: t("eventsTitle"), description: t("eventsDescription") };
+  return { title: t("eventsTitle"), description: t("eventsDescription"), alternates: localizedAlternates("/gruppen-und-events", locale as Locale) };
 }
 
 const MIN_GROUP = site.booking.maxGuestsOnline + 1;

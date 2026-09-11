@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
+import { localizedAlternates } from "@/lib/seo";
 import { Header } from "@/components/Header";
 import { PageHero } from "@/components/PageHero";
 import { BookingForm } from "@/components/BookingForm";
@@ -13,7 +14,7 @@ export const dynamic = "force-dynamic";
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta" });
-  return { title: t("reservationTitle"), description: t("reservationDescription") };
+  return { title: t("reservationTitle"), description: t("reservationDescription"), alternates: localizedAlternates("/reservation", locale as Locale) };
 }
 
 export default async function ReservationPage({ params }: { params: Promise<{ locale: string }> }) {

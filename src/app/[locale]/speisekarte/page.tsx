@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
+import { localizedAlternates } from "@/lib/seo";
 import { Header } from "@/components/Header";
 import { PageHero } from "@/components/PageHero";
 import { MenuBrowser } from "@/components/MenuBrowser";
@@ -9,7 +10,7 @@ import { menu } from "@/data/menu";
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta" });
-  return { title: t("menuTitle"), description: t("menuDescription") };
+  return { title: t("menuTitle"), description: t("menuDescription"), alternates: localizedAlternates("/speisekarte", locale as Locale) };
 }
 
 export default async function MenuPage({ params }: { params: Promise<{ locale: string }> }) {

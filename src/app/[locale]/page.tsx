@@ -1,7 +1,9 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
+import { localizedAlternates } from "@/lib/seo";
 import { Header } from "@/components/Header";
 import { Section, SectionHeading } from "@/components/Section";
 import { DishCard } from "@/components/DishCard";
@@ -11,6 +13,11 @@ import { PlaceholderBadge } from "@/components/PlaceholderBadge";
 import { findItem, signatureIds } from "@/data/menu";
 import { images } from "@/data/images";
 import { site } from "@/data/site";
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  return { alternates: localizedAlternates("/", locale as Locale) };
+}
 
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

@@ -41,10 +41,22 @@
     "closedToday": "Closed today",
     "openToday": "Open today",
     "weekdays": {
-      "0": "Sunday", "1": "Monday", "2": "Tuesday", "3": "Wednesday", "4": "Thursday", "5": "Friday", "6": "Saturday"
+      "0": "Sunday",
+      "1": "Monday",
+      "2": "Tuesday",
+      "3": "Wednesday",
+      "4": "Thursday",
+      "5": "Friday",
+      "6": "Saturday"
     },
     "weekdaysShort": {
-      "0": "Sun", "1": "Mon", "2": "Tue", "3": "Wed", "4": "Thu", "5": "Fri", "6": "Sat"
+      "0": "Sun",
+      "1": "Mon",
+      "2": "Tue",
+      "3": "Wed",
+      "4": "Thu",
+      "5": "Fri",
+      "6": "Sat"
     },
     "hours": "Opening hours",
     "address": "Address",
@@ -85,9 +97,18 @@
     "firstTimeTitle": "Start here",
     "firstTimeText": "Uyghur cuisine sits between Central Asia and China: dough, lamb, spices and plenty of fresh vegetables. If it is new to you, order these three. Together they tell the whole story.",
     "firstTimeSteps": {
-      "1": { "title": "Laghman", "text": "Hand-pulled noodles with lamb and vegetables. The dish a Uyghur kitchen is judged by." },
-      "2": { "title": "Polo", "text": "Rice, lamb, carrots. Looks simple, takes hours. Sweet, salty, deep." },
-      "3": { "title": "Shish kebab", "text": "Lamb over charcoal, cumin, chili. Comes straight from the grill to your table." }
+      "1": {
+        "title": "Laghman",
+        "text": "Hand-pulled noodles with lamb and vegetables. The dish a Uyghur kitchen is judged by."
+      },
+      "2": {
+        "title": "Polo",
+        "text": "Rice, lamb, carrots. Looks simple, takes hours. Sweet, salty, deep."
+      },
+      "3": {
+        "title": "Shish kebab",
+        "text": "Lamb over charcoal, cumin, chili. Comes straight from the grill to your table."
+      }
     },
     "firstTimeCta": "See all dishes",
     "craftEyebrow": "Craft",
@@ -155,7 +176,7 @@
     },
     "notes": "Notes (optional)",
     "notesHint": "Allergies, high chair, wheelchair, window seat…",
-    "privacy": "I agree that my details are stored to process this reservation. See the {link}.",
+    "privacy": "I agree that my details are stored to process this reservation. See the <link>privacy policy</link>.",
     "privacyLink": "privacy policy",
     "submit": "Confirm reservation",
     "submitting": "Sending…",
@@ -199,17 +220,38 @@
     "cuisineEyebrow": "The food",
     "cuisineTitle": "Four things to know",
     "cuisinePoints": {
-      "1": { "title": "Dough is the main event", "text": "Laghman is pulled, not cut. Manti and chüchüre are folded, samsa and göshnan baked. All made fresh every day." },
-      "2": { "title": "Lamb, cumin, chili", "text": "The base spices at the grill. Star anise, coriander and saffron in teas and soups." },
-      "3": { "title": "Everything is halal", "text": "Meat from halal-certified sources, no pork, no alcohol in the food." },
-      "4": { "title": "Eating together", "text": "Big plates go in the middle. Tea comes first. Whoever sits with us is a guest, not a customer." }
+      "1": {
+        "title": "Dough is the main event",
+        "text": "Laghman is pulled, not cut. Manti and chüchüre are folded, samsa and göshnan baked. All made fresh every day."
+      },
+      "2": {
+        "title": "Lamb, cumin, chili",
+        "text": "The base spices at the grill. Star anise, coriander and saffron in teas and soups."
+      },
+      "3": {
+        "title": "Everything is halal",
+        "text": "Meat from halal-certified sources, no pork, no alcohol in the food."
+      },
+      "4": {
+        "title": "Eating together",
+        "text": "Big plates go in the middle. Tea comes first. Whoever sits with us is a guest, not a customer."
+      }
     },
     "placesEyebrow": "The places on our walls",
     "placesTitle": "Kashgar, Ürümqi, Turpan",
     "places": {
-      "kashgar": { "title": "Kashgar", "text": "The old oasis city on the western edge of the Taklamakan. The Heytgah mosque, the Sunday market, the tea houses. This is where our laghman comes from." },
-      "urumqi": { "title": "Ürümqi", "text": "The capital, set against the Tianshan mountains. Big kitchens, big plates. Dapanji is its best-known dish." },
-      "turpan": { "title": "Turpan", "text": "The lowest and hottest oasis. Grapes, raisins, melons. The raisins in our polo are a nod to it." }
+      "kashgar": {
+        "title": "Kashgar",
+        "text": "The old oasis city on the western edge of the Taklamakan. The Heytgah mosque, the Sunday market, the tea houses. This is where our laghman comes from."
+      },
+      "urumqi": {
+        "title": "Ürümqi",
+        "text": "The capital, set against the Tianshan mountains. Big kitchens, big plates. Dapanji is its best-known dish."
+      },
+      "turpan": {
+        "title": "Turpan",
+        "text": "The lowest and hottest oasis. Grapes, raisins, melons. The raisins in our polo are a nod to it."
+      }
     },
     "teamEyebrow": "Team",
     "teamTitle": "The people behind Karahan",
@@ -221,16 +263,29 @@
     "lead": "Family celebrations, company dinners, birthdays. For groups of {min} or more we put together sharing menus. On request we reserve an area for you.",
     "offerEyebrow": "What we offer",
     "offers": {
-      "1": { "title": "Group menu", "text": "Three to four courses to share, from {min} guests. Starters, samsa, grill, laghman and polo for the middle of the table, tea and dessert." },
-      "2": { "title": "Whole restaurant", "text": "For events up to {seats} guests, usually on Sundays and Mondays. Ask about dates." },
-      "3": { "title": "Catering", "text": "Samsa, manti, salads and polo for the office or a party. Pick-up or delivery in Winterthur and surroundings." }
+      "1": {
+        "title": "Group menu",
+        "text": "Three to four courses to share, from {min} guests. Starters, samsa, grill, laghman and polo for the middle of the table, tea and dessert."
+      },
+      "2": {
+        "title": "Whole restaurant",
+        "text": "For events up to {seats} guests, usually on Sundays and Mondays. Ask about dates."
+      },
+      "3": {
+        "title": "Catering",
+        "text": "Samsa, manti, salads and polo for the office or a party. Pick-up or delivery in Winterthur and surroundings."
+      }
     },
     "formTitle": "Send a request",
     "formText": "We reply within one working day.",
     "date": "Preferred date",
     "guests": "Number of guests",
     "type": "Type of event",
-    "types": { "group": "Group reservation", "private": "Whole restaurant", "catering": "Catering" },
+    "types": {
+      "group": "Group reservation",
+      "private": "Whole restaurant",
+      "catering": "Catering"
+    },
     "message": "Message",
     "submit": "Send request",
     "success": "Thank you. We have received your request and will reply within one working day.",
@@ -239,7 +294,11 @@
   "gallery": {
     "title": "Gallery",
     "lead": "Dining room, kitchen and dishes. Images marked \"Sample image\" are placeholders that will be replaced with our own photos after opening.",
-    "sections": { "interior": "Dining room", "kitchen": "Kitchen", "dishes": "Dishes" }
+    "sections": {
+      "interior": "Dining room",
+      "kitchen": "Kitchen",
+      "dishes": "Dishes"
+    }
   },
   "contact": {
     "title": "Contact & Directions",

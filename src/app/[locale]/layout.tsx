@@ -8,6 +8,7 @@ import { routing, type Locale } from "@/i18n/routing";
 import { Footer } from "@/components/Footer";
 import { StickyCta } from "@/components/StickyCta";
 import { site } from "@/data/site";
+import { RestaurantJsonLd } from "@/components/JsonLd";
 
 const cinzel = Cinzel({ subsets: ["latin"], weight: ["500", "600"], variable: "--font-cinzel", display: "swap" });
 const sourceSerif = Source_Serif_4({ subsets: ["latin", "latin-ext"], weight: ["400", "600"], style: ["normal", "italic"], variable: "--font-source-serif", display: "swap" });
@@ -21,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta" });
   return {
-    metadataBase: new URL(site.domain),
+    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? site.domain),
     title: { default: t("title"), template: `%s · ${site.name}` },
     description: t("description"),
     openGraph: {
@@ -42,6 +43,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
   return (
     <html lang={locale} className={`${cinzel.variable} ${sourceSerif.variable} ${figtree.variable} h-full`}>
       <body className="flex min-h-full flex-col">
+        <RestaurantJsonLd locale={locale as Locale} />
         <NextIntlClientProvider>
           {children}
           <Footer />

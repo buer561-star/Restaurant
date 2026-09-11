@@ -41,10 +41,22 @@
     "closedToday": "Heute geschlossen",
     "openToday": "Heute geöffnet",
     "weekdays": {
-      "0": "Sonntag", "1": "Montag", "2": "Dienstag", "3": "Mittwoch", "4": "Donnerstag", "5": "Freitag", "6": "Samstag"
+      "0": "Sonntag",
+      "1": "Montag",
+      "2": "Dienstag",
+      "3": "Mittwoch",
+      "4": "Donnerstag",
+      "5": "Freitag",
+      "6": "Samstag"
     },
     "weekdaysShort": {
-      "0": "So", "1": "Mo", "2": "Di", "3": "Mi", "4": "Do", "5": "Fr", "6": "Sa"
+      "0": "So",
+      "1": "Mo",
+      "2": "Di",
+      "3": "Mi",
+      "4": "Do",
+      "5": "Fr",
+      "6": "Sa"
     },
     "hours": "Öffnungszeiten",
     "address": "Adresse",
@@ -85,9 +97,18 @@
     "firstTimeTitle": "So fangen Sie an",
     "firstTimeText": "Uigurische Küche liegt zwischen Zentralasien und China: Teig, Lamm, Gewürze und viel frisches Gemüse. Wer sie nicht kennt, bestellt am besten diese drei Gerichte. Zusammen erzählen sie die ganze Geschichte.",
     "firstTimeSteps": {
-      "1": { "title": "Lagman", "text": "Handgezogene Nudeln mit Lamm und Gemüse. Das Gericht, an dem man eine uigurische Küche misst." },
-      "2": { "title": "Polo", "text": "Reis, Lamm, Karotten. Sieht einfach aus, braucht Stunden. Süss, salzig, tief." },
-      "3": { "title": "Şiş Kebab", "text": "Lamm über Holzkohle, Kreuzkümmel, Chili. Kommt heiss vom Grill an den Tisch." }
+      "1": {
+        "title": "Lagman",
+        "text": "Handgezogene Nudeln mit Lamm und Gemüse. Das Gericht, an dem man eine uigurische Küche misst."
+      },
+      "2": {
+        "title": "Polo",
+        "text": "Reis, Lamm, Karotten. Sieht einfach aus, braucht Stunden. Süss, salzig, tief."
+      },
+      "3": {
+        "title": "Şiş Kebab",
+        "text": "Lamm über Holzkohle, Kreuzkümmel, Chili. Kommt heiss vom Grill an den Tisch."
+      }
     },
     "firstTimeCta": "Alle Gerichte ansehen",
     "craftEyebrow": "Handwerk",
@@ -155,7 +176,7 @@
     },
     "notes": "Bemerkungen (optional)",
     "notesHint": "Allergien, Kinderstuhl, Rollstuhl, Fensterplatz…",
-    "privacy": "Ich bin einverstanden, dass meine Angaben zur Bearbeitung der Reservation gespeichert werden. Details in der {link}.",
+    "privacy": "Ich bin einverstanden, dass meine Angaben zur Bearbeitung der Reservation gespeichert werden. Details in der <link>Datenschutzerklärung</link>.",
     "privacyLink": "Datenschutzerklärung",
     "submit": "Verbindlich reservieren",
     "submitting": "Wird gesendet…",
@@ -199,17 +220,38 @@
     "cuisineEyebrow": "Die Küche",
     "cuisineTitle": "Vier Dinge, die Sie wissen sollten",
     "cuisinePoints": {
-      "1": { "title": "Teig ist die Hauptsache", "text": "Lagman wird gezogen, nicht geschnitten. Manti und Çüçüre werden gefaltet, Samsa und Göşnan gebacken. Alles jeden Tag neu." },
-      "2": { "title": "Lamm, Kreuzkümmel, Chili", "text": "Die Grundgewürze am Grill. Dazu Sternanis, Koriander und Safran in Tee und Suppen." },
-      "3": { "title": "Alles ist halal", "text": "Fleisch aus halal-zertifizierter Herkunft, kein Schweinefleisch, kein Alkohol in den Speisen." },
-      "4": { "title": "Gemeinsam essen", "text": "Grosse Teller kommen in die Mitte. Tee kommt zuerst. Wer bei uns sitzt, ist Gast, nicht Kunde." }
+      "1": {
+        "title": "Teig ist die Hauptsache",
+        "text": "Lagman wird gezogen, nicht geschnitten. Manti und Çüçüre werden gefaltet, Samsa und Göşnan gebacken. Alles jeden Tag neu."
+      },
+      "2": {
+        "title": "Lamm, Kreuzkümmel, Chili",
+        "text": "Die Grundgewürze am Grill. Dazu Sternanis, Koriander und Safran in Tee und Suppen."
+      },
+      "3": {
+        "title": "Alles ist halal",
+        "text": "Fleisch aus halal-zertifizierter Herkunft, kein Schweinefleisch, kein Alkohol in den Speisen."
+      },
+      "4": {
+        "title": "Gemeinsam essen",
+        "text": "Grosse Teller kommen in die Mitte. Tee kommt zuerst. Wer bei uns sitzt, ist Gast, nicht Kunde."
+      }
     },
     "placesEyebrow": "Die Orte an unseren Wänden",
     "placesTitle": "Kaşgar, Ürümçi, Turfan",
     "places": {
-      "kashgar": { "title": "Kaşgar", "text": "Die alte Oasenstadt am westlichen Rand der Taklamakan. Die Heytgah-Moschee, der Sonntagsmarkt, die Teehäuser. Hier kommt unser Lagman her." },
-      "urumqi": { "title": "Ürümçi", "text": "Die Hauptstadt vor der Kulisse des Tianshan. Grosse Küche, grosse Teller. Dapanji ist ihr bekanntestes Gericht." },
-      "turpan": { "title": "Turfan", "text": "Die tiefste und heisseste Oase. Weintrauben, Rosinen, Melonen. Die Rosinen in unserem Polo erinnern daran." }
+      "kashgar": {
+        "title": "Kaşgar",
+        "text": "Die alte Oasenstadt am westlichen Rand der Taklamakan. Die Heytgah-Moschee, der Sonntagsmarkt, die Teehäuser. Hier kommt unser Lagman her."
+      },
+      "urumqi": {
+        "title": "Ürümçi",
+        "text": "Die Hauptstadt vor der Kulisse des Tianshan. Grosse Küche, grosse Teller. Dapanji ist ihr bekanntestes Gericht."
+      },
+      "turpan": {
+        "title": "Turfan",
+        "text": "Die tiefste und heisseste Oase. Weintrauben, Rosinen, Melonen. Die Rosinen in unserem Polo erinnern daran."
+      }
     },
     "teamEyebrow": "Team",
     "teamTitle": "Wer hinter Karahan steht",
@@ -221,16 +263,29 @@
     "lead": "Familienfeste, Firmenessen, Geburtstage. Für Gruppen ab {min} Personen stellen wir Menüs zum Teilen zusammen. Auf Wunsch reservieren wir einen Bereich für Sie.",
     "offerEyebrow": "Angebot",
     "offers": {
-      "1": { "title": "Gruppenmenü", "text": "Drei bis vier Gänge zum Teilen, ab {min} Personen. Vorspeisen, Samsa, Grill, Lagman und Polo für die Mitte des Tisches, Tee und Dessert." },
-      "2": { "title": "Ganzes Restaurant", "text": "Für Anlässe bis {seats} Personen, meist an Sonn- und Montagen. Fragen Sie nach Terminen." },
-      "3": { "title": "Catering", "text": "Samsa, Manti, Salate und Polo für Büro und Feier. Abholung oder Lieferung in Winterthur und Umgebung." }
+      "1": {
+        "title": "Gruppenmenü",
+        "text": "Drei bis vier Gänge zum Teilen, ab {min} Personen. Vorspeisen, Samsa, Grill, Lagman und Polo für die Mitte des Tisches, Tee und Dessert."
+      },
+      "2": {
+        "title": "Ganzes Restaurant",
+        "text": "Für Anlässe bis {seats} Personen, meist an Sonn- und Montagen. Fragen Sie nach Terminen."
+      },
+      "3": {
+        "title": "Catering",
+        "text": "Samsa, Manti, Salate und Polo für Büro und Feier. Abholung oder Lieferung in Winterthur und Umgebung."
+      }
     },
     "formTitle": "Anfrage stellen",
     "formText": "Wir melden uns innerhalb eines Werktags.",
     "date": "Wunschdatum",
     "guests": "Anzahl Personen",
     "type": "Art des Anlasses",
-    "types": { "group": "Gruppenreservation", "private": "Ganzes Restaurant", "catering": "Catering" },
+    "types": {
+      "group": "Gruppenreservation",
+      "private": "Ganzes Restaurant",
+      "catering": "Catering"
+    },
     "message": "Nachricht",
     "submit": "Anfrage senden",
     "success": "Danke. Ihre Anfrage ist bei uns eingegangen, wir melden uns innerhalb eines Werktags.",
@@ -239,7 +294,11 @@
   "gallery": {
     "title": "Galerie",
     "lead": "Gastraum, Küche und Gerichte. Bilder mit dem Hinweis «Beispielbild» sind Platzhalter, die nach der Eröffnung durch eigene Fotos ersetzt werden.",
-    "sections": { "interior": "Gastraum", "kitchen": "Küche", "dishes": "Gerichte" }
+    "sections": {
+      "interior": "Gastraum",
+      "kitchen": "Küche",
+      "dishes": "Gerichte"
+    }
   },
   "contact": {
     "title": "Kontakt & Anfahrt",

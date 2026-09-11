@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
+import { localizedAlternates } from "@/lib/seo";
 import { Header } from "@/components/Header";
 import { PageHero } from "@/components/PageHero";
 import { PlaceholderBadge } from "@/components/PlaceholderBadge";
@@ -11,7 +12,7 @@ import { menu } from "@/data/menu";
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta" });
-  return { title: t("galleryTitle"), description: t("galleryDescription") };
+  return { title: t("galleryTitle"), description: t("galleryDescription"), alternates: localizedAlternates("/galerie", locale as Locale) };
 }
 
 export default async function GalleryPage({ params }: { params: Promise<{ locale: string }> }) {
