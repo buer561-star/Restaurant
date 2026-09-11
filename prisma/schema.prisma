@@ -1,0 +1,65 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum ReservationStatus {
+  PENDING
+  CONFIRMED
+  SEATED
+  CANCELLED
+  NO_SHOW
+}
+
+model Reservation {
+  id             String            @id @default(cuid())
+  /// Start des Zeitfensters in UTC
+  startsAt       DateTime
+  /// Ende der Tischbelegung in UTC (startsAt + diningMinutes)
+  endsAt         DateTime
+  /// Kalendertag in Europe/Zurich als "YYYY-MM-DD", für schnelle Tageslisten
+  day            String
+  guests         Int
+  name           String
+  phone          String
+  email          String
+  locale         String            @default("de")
+  occasion       String?
+  notes          String?
+  status         ReservationStatus @default(CONFIRMED)
+  cancelToken    String            @unique @default(cuid())
+  source         String            @default("web")
+  reminderSentAt DateTime?
+  createdAt      DateTime          @default(now())
+  updatedAt      DateTime          @updatedAt
+
+  @@index([day])
+  @@index([startsAt])
+  @@index([email])
+}
+
+model BlockedDate {
+  id        String   @id @default(cuid())
+  /// "YYYY-MM-DD" in Europe/Zurich
+  day       String   @unique
+  reason    String?
+  createdAt DateTime @default(now())
+}
+
+model EventRequest {
+  id        String   @id @default(cuid())
+  type      String
+  date      String?
+  guests    Int?
+  name      String
+  phone     String
+  email     String
+  message   String
+  locale    String   @default("de")
+  handled   Boolean  @default(false)
+  createdAt DateTime @default(now())
+}

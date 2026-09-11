@@ -1,0 +1,274 @@
+{
+  "meta": {
+    "title": "Karahan Uigur Restaurant Winterthur",
+    "description": "Uigurische Küche in Winterthur: handgezogene Lagman, Polo, Manti und Kebab vom Holzkohlegrill. Halal. Jetzt Tisch reservieren.",
+    "menuTitle": "Speisekarte",
+    "menuDescription": "Die Speisekarte des Karahan: handgemachte Teigwaren, Grill, Polo, Tee und Dessert. Alle Preise in CHF.",
+    "reservationTitle": "Tisch reservieren",
+    "reservationDescription": "Reservieren Sie online einen Tisch im Karahan Uigur Restaurant in Winterthur. Bestätigung per E-Mail.",
+    "aboutTitle": "Über uns",
+    "aboutDescription": "Warum Karahan: uigurische Küche, Kultur und Gastfreundschaft in Winterthur.",
+    "eventsTitle": "Gruppen & Events",
+    "eventsDescription": "Familienfeste, Firmenanlässe und Catering im Karahan Winterthur. Anfrage stellen.",
+    "galleryTitle": "Galerie",
+    "galleryDescription": "Bilder aus dem Karahan: Gastraum, Küche und Gerichte.",
+    "contactTitle": "Kontakt & Anfahrt",
+    "contactDescription": "Adresse, Öffnungszeiten, Telefon und Anfahrt zum Karahan Uigur Restaurant in Winterthur."
+  },
+  "nav": {
+    "home": "Start",
+    "menu": "Speisekarte",
+    "reservation": "Reservation",
+    "about": "Über uns",
+    "events": "Gruppen & Events",
+    "gallery": "Galerie",
+    "contact": "Kontakt",
+    "book": "Tisch reservieren",
+    "call": "Anrufen",
+    "directions": "Route",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schliessen",
+    "language": "Sprache"
+  },
+  "common": {
+    "placeholderBadge": "Beispielbild",
+    "placeholderHint": "AI-generiertes Platzhalterbild, wird durch ein echtes Foto ersetzt.",
+    "pricesPlaceholder": "Preise sind provisorisch und werden vor der Eröffnung bestätigt.",
+    "halal": "Halal",
+    "handmade": "Handgemacht",
+    "openingSoon": "Eröffnung {date}",
+    "closed": "Geschlossen",
+    "closedToday": "Heute geschlossen",
+    "openToday": "Heute geöffnet",
+    "weekdays": {
+      "0": "Sonntag", "1": "Montag", "2": "Dienstag", "3": "Mittwoch", "4": "Donnerstag", "5": "Freitag", "6": "Samstag"
+    },
+    "weekdaysShort": {
+      "0": "So", "1": "Mo", "2": "Di", "3": "Mi", "4": "Do", "5": "Fr", "6": "Sa"
+    },
+    "hours": "Öffnungszeiten",
+    "address": "Adresse",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "followUs": "Folgen Sie uns",
+    "readMore": "Mehr erfahren",
+    "viewMenu": "Zur Speisekarte",
+    "back": "Zurück"
+  },
+  "tags": {
+    "vegetarian": "Vegetarisch",
+    "vegan": "Vegan",
+    "spicy": "Scharf",
+    "signature": "Empfehlung",
+    "sharing": "Zum Teilen",
+    "handmade": "Handgemacht"
+  },
+  "allergens": {
+    "title": "Allergene",
+    "gluten": "Gluten",
+    "egg": "Ei",
+    "milk": "Milch",
+    "sesame": "Sesam",
+    "soy": "Soja",
+    "nuts": "Nüsse",
+    "note": "Bei Allergien oder Unverträglichkeiten sprechen Sie uns bitte an. Wir beraten Sie gerne."
+  },
+  "home": {
+    "eyebrow": "Uigurisches Restaurant · Winterthur",
+    "heroTitle": "Handgezogene Nudeln. Feuer. Gastfreundschaft.",
+    "heroText": "Karahan bringt die Küche der Seidenstrasse nach Winterthur: Lagman aus frisch gezogenem Teig, Polo aus dem Kessel, Kebab über Holzkohle. Alles halal, alles von Hand.",
+    "heroCta": "Tisch reservieren",
+    "heroSecondary": "Speisekarte ansehen",
+    "signatureEyebrow": "Drei Gerichte, die Sie kennen sollten",
+    "signatureTitle": "Unsere Empfehlungen",
+    "firstTimeEyebrow": "Zum ersten Mal uigurisch?",
+    "firstTimeTitle": "So fangen Sie an",
+    "firstTimeText": "Uigurische Küche liegt zwischen Zentralasien und China: Teig, Lamm, Gewürze und viel frisches Gemüse. Wer sie nicht kennt, bestellt am besten diese drei Gerichte. Zusammen erzählen sie die ganze Geschichte.",
+    "firstTimeSteps": {
+      "1": { "title": "Lagman", "text": "Handgezogene Nudeln mit Lamm und Gemüse. Das Gericht, an dem man eine uigurische Küche misst." },
+      "2": { "title": "Polo", "text": "Reis, Lamm, Karotten. Sieht einfach aus, braucht Stunden. Süss, salzig, tief." },
+      "3": { "title": "Şiş Kebab", "text": "Lamm über Holzkohle, Kreuzkümmel, Chili. Kommt heiss vom Grill an den Tisch." }
+    },
+    "firstTimeCta": "Alle Gerichte ansehen",
+    "craftEyebrow": "Handwerk",
+    "craftTitle": "Was Sie sehen, wird gerade gemacht",
+    "craftText": "Unser Teig wird morgens geknetet und ruht, bis er gezogen wird. Manti und Çüçüre werden einzeln von Hand gefaltet. Der Kebab wartet nie: Er kommt vom Grill direkt auf den Tisch.",
+    "craftPoints": {
+      "1": "Teig täglich frisch, Nudeln auf Bestellung gezogen",
+      "2": "Lamm und Poulet aus halal-zertifizierter Herkunft",
+      "3": "Gewürze aus Kaşgar: Kreuzkümmel, Chili, Safran"
+    },
+    "cultureEyebrow": "Kultur",
+    "cultureTitle": "Ein Stück Kaşgar in Winterthur",
+    "cultureText": "Die Ikat-Stoffe an den Säulen, die Doppa-Hüte, die Bilder von Ürümçi, Turfan und der Heytgah-Moschee: Alles im Karahan erzählt von der Heimat unserer Küche. In der uigurischen Kultur ist ein Gast nie nur Kunde. Wer sich setzt, bekommt zuerst Tee.",
+    "cultureCta": "Unsere Geschichte",
+    "sharingEyebrow": "Zum Teilen",
+    "sharingTitle": "Grosse Teller, lange Abende",
+    "sharingText": "Dapanji, Grillplatte, Göşnan: Manche Gerichte sind für die Mitte des Tisches gemacht. Für Familien, Freunde, Teams.",
+    "sharingCta": "Gruppen & Events",
+    "visitEyebrow": "Besuch",
+    "visitTitle": "Öffnungszeiten & Anfahrt",
+    "visitText": "Wenige Minuten vom Winterthur Hauptbahnhof. Parkplätze in der Nähe.",
+    "reviewsEyebrow": "Stimmen",
+    "reviewsTitle": "Was Gäste sagen",
+    "reviewsPending": "Wir eröffnen bald. Die ersten Bewertungen erscheinen hier nach der Eröffnung.",
+    "instagramTitle": "Aus unserer Küche",
+    "instagramText": "Täglich neue Einblicke auf Instagram und TikTok.",
+    "bookBannerTitle": "Tisch reservieren",
+    "bookBannerText": "Online in unter einer Minute. Bestätigung per E-Mail, kostenlos stornierbar bis zwei Stunden vorher."
+  },
+  "menu": {
+    "title": "Speisekarte",
+    "intro": "Alles auf dieser Karte ist halal. Die Teigwaren werden täglich von Hand gemacht. Preise in CHF inklusive MwSt.",
+    "jumpTo": "Direkt zu",
+    "filterAll": "Alle",
+    "filterVegetarian": "Vegetarisch & Vegan",
+    "filterSpicy": "Scharf",
+    "filterSignature": "Empfehlungen",
+    "noResults": "Keine Gerichte mit diesem Filter.",
+    "downloadHint": "Sie möchten die Karte ausdrucken? Nutzen Sie die Druckfunktion Ihres Browsers.",
+    "originalLabel": "Uigurisch"
+  },
+  "reservation": {
+    "title": "Tisch reservieren",
+    "intro": "Wählen Sie Datum, Uhrzeit und Anzahl Personen. Sie erhalten sofort eine Bestätigung per E-Mail.",
+    "stepDate": "Datum",
+    "stepTime": "Uhrzeit",
+    "stepGuests": "Personen",
+    "stepDetails": "Ihre Angaben",
+    "guests": "{count, plural, =1 {1 Person} other {# Personen}}",
+    "largeGroup": "Mehr als {max} Personen? Schreiben Sie uns über das Gruppenformular oder rufen Sie an.",
+    "largeGroupLink": "Gruppenanfrage",
+    "noSlots": "An diesem Tag sind online keine Tische mehr frei. Rufen Sie uns an, oft geht noch etwas.",
+    "closedDay": "An diesem Tag ist das Restaurant geschlossen.",
+    "loadingSlots": "Freie Zeiten werden geladen…",
+    "name": "Name",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "occasion": "Anlass (optional)",
+    "occasionOptions": {
+      "none": "Kein besonderer Anlass",
+      "birthday": "Geburtstag",
+      "business": "Geschäftsessen",
+      "family": "Familienfeier",
+      "other": "Anderes"
+    },
+    "notes": "Bemerkungen (optional)",
+    "notesHint": "Allergien, Kinderstuhl, Rollstuhl, Fensterplatz…",
+    "privacy": "Ich bin einverstanden, dass meine Angaben zur Bearbeitung der Reservation gespeichert werden. Details in der {link}.",
+    "privacyLink": "Datenschutzerklärung",
+    "submit": "Verbindlich reservieren",
+    "submitting": "Wird gesendet…",
+    "successTitle": "Reserviert. Wir freuen uns auf Sie.",
+    "successText": "Eine Bestätigung ist unterwegs an {email}. Falls sie nicht ankommt, prüfen Sie den Spam-Ordner.",
+    "summary": "Zusammenfassung",
+    "cancelInfo": "Sie können bis {hours} Stunden vor dem Termin kostenlos stornieren. Der Link dazu steht in der E-Mail.",
+    "addToCalendar": "In Kalender speichern",
+    "errors": {
+      "generic": "Das hat nicht geklappt. Bitte versuchen Sie es erneut oder rufen Sie uns an.",
+      "slotTaken": "Dieses Zeitfenster ist inzwischen belegt. Bitte wählen Sie eine andere Uhrzeit.",
+      "invalid": "Bitte prüfen Sie Ihre Angaben.",
+      "nameRequired": "Bitte geben Sie Ihren Namen an.",
+      "phoneInvalid": "Bitte geben Sie eine gültige Telefonnummer an.",
+      "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse an.",
+      "consentRequired": "Bitte bestätigen Sie die Datenschutzerklärung."
+    },
+    "status": {
+      "PENDING": "Eingegangen",
+      "CONFIRMED": "Bestätigt",
+      "CANCELLED": "Storniert",
+      "NO_SHOW": "Nicht erschienen",
+      "SEATED": "Am Tisch"
+    },
+    "detail": {
+      "title": "Ihre Reservation",
+      "cancelled": "Diese Reservation wurde storniert.",
+      "cancel": "Reservation stornieren",
+      "cancelConfirm": "Möchten Sie diese Reservation wirklich stornieren?",
+      "cancelTooLate": "Die Stornofrist ist abgelaufen. Bitte rufen Sie uns an.",
+      "notFound": "Diese Reservation wurde nicht gefunden."
+    }
+  },
+  "about": {
+    "title": "Über uns",
+    "lead": "Karahan ist ein uigurisches Restaurant in Winterthur. Wir kochen, was wir zu Hause gekocht haben: Teig, Lamm, Gemüse, Gewürze und Tee. Nicht vereinfacht, nicht angepasst.",
+    "whyEyebrow": "Warum Karahan",
+    "whyTitle": "Eine Küche, die kaum jemand kennt",
+    "whyText1": "Die Uiguren leben seit Jahrhunderten an der Seidenstrasse, zwischen Zentralasien und China. Ihre Küche trägt beides in sich: gezogene Nudeln und Wok aus dem Osten, Pilaw, Kebab und Teigtaschen aus dem Westen. Halal, würzig, mit viel Gemüse.",
+    "whyText2": "In der Schweiz gibt es diese Küche fast nirgends. Wir haben Karahan eröffnet, damit sich das ändert. Der Name geht auf die Karachaniden zurück, die im 10. Jahrhundert von Kaşgar aus regierten.",
+    "cuisineEyebrow": "Die Küche",
+    "cuisineTitle": "Vier Dinge, die Sie wissen sollten",
+    "cuisinePoints": {
+      "1": { "title": "Teig ist die Hauptsache", "text": "Lagman wird gezogen, nicht geschnitten. Manti und Çüçüre werden gefaltet, Samsa und Göşnan gebacken. Alles jeden Tag neu." },
+      "2": { "title": "Lamm, Kreuzkümmel, Chili", "text": "Die Grundgewürze am Grill. Dazu Sternanis, Koriander und Safran in Tee und Suppen." },
+      "3": { "title": "Alles ist halal", "text": "Fleisch aus halal-zertifizierter Herkunft, kein Schweinefleisch, kein Alkohol in den Speisen." },
+      "4": { "title": "Gemeinsam essen", "text": "Grosse Teller kommen in die Mitte. Tee kommt zuerst. Wer bei uns sitzt, ist Gast, nicht Kunde." }
+    },
+    "placesEyebrow": "Die Orte an unseren Wänden",
+    "placesTitle": "Kaşgar, Ürümçi, Turfan",
+    "places": {
+      "kashgar": { "title": "Kaşgar", "text": "Die alte Oasenstadt am westlichen Rand der Taklamakan. Die Heytgah-Moschee, der Sonntagsmarkt, die Teehäuser. Hier kommt unser Lagman her." },
+      "urumqi": { "title": "Ürümçi", "text": "Die Hauptstadt vor der Kulisse des Tianshan. Grosse Küche, grosse Teller. Dapanji ist ihr bekanntestes Gericht." },
+      "turpan": { "title": "Turfan", "text": "Die tiefste und heisseste Oase. Weintrauben, Rosinen, Melonen. Die Rosinen in unserem Polo erinnern daran." }
+    },
+    "teamEyebrow": "Team",
+    "teamTitle": "Wer hinter Karahan steht",
+    "teamText": "Bilder und Namen des Teams folgen zur Eröffnung.",
+    "teamPlaceholder": "Foto folgt"
+  },
+  "events": {
+    "title": "Gruppen & Events",
+    "lead": "Familienfeste, Firmenessen, Geburtstage. Für Gruppen ab {min} Personen stellen wir Menüs zum Teilen zusammen. Auf Wunsch reservieren wir einen Bereich für Sie.",
+    "offerEyebrow": "Angebot",
+    "offers": {
+      "1": { "title": "Gruppenmenü", "text": "Drei bis vier Gänge zum Teilen, ab {min} Personen. Vorspeisen, Samsa, Grill, Lagman und Polo für die Mitte des Tisches, Tee und Dessert." },
+      "2": { "title": "Ganzes Restaurant", "text": "Für Anlässe bis {seats} Personen, meist an Sonn- und Montagen. Fragen Sie nach Terminen." },
+      "3": { "title": "Catering", "text": "Samsa, Manti, Salate und Polo für Büro und Feier. Abholung oder Lieferung in Winterthur und Umgebung." }
+    },
+    "formTitle": "Anfrage stellen",
+    "formText": "Wir melden uns innerhalb eines Werktags.",
+    "date": "Wunschdatum",
+    "guests": "Anzahl Personen",
+    "type": "Art des Anlasses",
+    "types": { "group": "Gruppenreservation", "private": "Ganzes Restaurant", "catering": "Catering" },
+    "message": "Nachricht",
+    "submit": "Anfrage senden",
+    "success": "Danke. Ihre Anfrage ist bei uns eingegangen, wir melden uns innerhalb eines Werktags.",
+    "error": "Das hat nicht geklappt. Bitte schreiben Sie uns direkt an {email}."
+  },
+  "gallery": {
+    "title": "Galerie",
+    "lead": "Gastraum, Küche und Gerichte. Bilder mit dem Hinweis «Beispielbild» sind Platzhalter, die nach der Eröffnung durch eigene Fotos ersetzt werden.",
+    "sections": { "interior": "Gastraum", "kitchen": "Küche", "dishes": "Gerichte" }
+  },
+  "contact": {
+    "title": "Kontakt & Anfahrt",
+    "lead": "Wir sind wenige Minuten vom Winterthur Hauptbahnhof entfernt.",
+    "directionsTitle": "Anfahrt",
+    "byTrain": "Mit dem Zug",
+    "byTrainText": "Vom Winterthur HB zu Fuss oder mit dem Bus. Genaue Linie folgt mit der definitiven Adresse.",
+    "byCar": "Mit dem Auto",
+    "byCarText": "Öffentliche Parkhäuser in der Nähe. Details folgen mit der definitiven Adresse.",
+    "mapCta": "In Google Maps öffnen",
+    "whatsapp": "Per WhatsApp schreiben",
+    "reservationsTitle": "Reservationen",
+    "reservationsText": "Am schnellsten online. Für Gruppen ab {max} Personen nutzen Sie bitte das Gruppenformular oder rufen Sie an."
+  },
+  "footer": {
+    "tagline": "Uigurische Küche in Winterthur. Handgemacht, halal, mit Tee.",
+    "legal": "Rechtliches",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "copyright": "© {year} {name}. Alle Rechte vorbehalten.",
+    "madeIn": "Winterthur, Schweiz"
+  },
+  "legal": {
+    "imprintTitle": "Impressum",
+    "privacyTitle": "Datenschutzerklärung"
+  },
+  "notFound": {
+    "title": "Diese Seite gibt es nicht",
+    "text": "Vielleicht hilft die Speisekarte weiter.",
+    "cta": "Zur Startseite"
+  }
+}

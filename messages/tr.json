@@ -1,0 +1,274 @@
+{
+  "meta": {
+    "title": "Karahan Uygur Restoranı Winterthur",
+    "description": "Winterthur'da Uygur mutfağı: el çekmesi lagman, polo, mantı ve kömür ateşinde kebap. Helal. Online masa ayırtın.",
+    "menuTitle": "Menü",
+    "menuDescription": "Karahan menüsü: el yapımı hamur işleri, ızgara, polo, çay ve tatlı. Tüm fiyatlar CHF.",
+    "reservationTitle": "Masa ayırtın",
+    "reservationDescription": "Winterthur'daki Karahan Uygur Restoranı'nda online masa ayırtın. E-posta ile onay.",
+    "aboutTitle": "Hakkımızda",
+    "aboutDescription": "Neden Karahan: Winterthur'da Uygur yemeği, kültürü ve misafirperverliği.",
+    "eventsTitle": "Gruplar & Etkinlikler",
+    "eventsDescription": "Aile kutlamaları, şirket yemekleri ve catering. Karahan Winterthur'a talep gönderin.",
+    "galleryTitle": "Galeri",
+    "galleryDescription": "Karahan'dan kareler: salon, mutfak ve yemekler.",
+    "contactTitle": "İletişim & Ulaşım",
+    "contactDescription": "Winterthur'daki Karahan Uygur Restoranı'nın adresi, çalışma saatleri, telefonu ve ulaşım bilgileri."
+  },
+  "nav": {
+    "home": "Ana sayfa",
+    "menu": "Menü",
+    "reservation": "Rezervasyon",
+    "about": "Hakkımızda",
+    "events": "Gruplar & Etkinlikler",
+    "gallery": "Galeri",
+    "contact": "İletişim",
+    "book": "Masa ayırt",
+    "call": "Ara",
+    "directions": "Yol tarifi",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "language": "Dil"
+  },
+  "common": {
+    "placeholderBadge": "Örnek görsel",
+    "placeholderHint": "Yapay zekâ ile üretilmiş geçici görsel, gerçek fotoğrafla değiştirilecek.",
+    "pricesPlaceholder": "Fiyatlar geçicidir, açılıştan önce kesinleşecektir.",
+    "halal": "Helal",
+    "handmade": "El yapımı",
+    "openingSoon": "Açılış {date}",
+    "closed": "Kapalı",
+    "closedToday": "Bugün kapalı",
+    "openToday": "Bugün açık",
+    "weekdays": {
+      "0": "Pazar", "1": "Pazartesi", "2": "Salı", "3": "Çarşamba", "4": "Perşembe", "5": "Cuma", "6": "Cumartesi"
+    },
+    "weekdaysShort": {
+      "0": "Paz", "1": "Pzt", "2": "Sal", "3": "Çar", "4": "Per", "5": "Cum", "6": "Cmt"
+    },
+    "hours": "Çalışma saatleri",
+    "address": "Adres",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "followUs": "Bizi takip edin",
+    "readMore": "Daha fazla",
+    "viewMenu": "Menüye git",
+    "back": "Geri"
+  },
+  "tags": {
+    "vegetarian": "Vejetaryen",
+    "vegan": "Vegan",
+    "spicy": "Acılı",
+    "signature": "Tavsiye",
+    "sharing": "Paylaşımlık",
+    "handmade": "El yapımı"
+  },
+  "allergens": {
+    "title": "Alerjenler",
+    "gluten": "Gluten",
+    "egg": "Yumurta",
+    "milk": "Süt",
+    "sesame": "Susam",
+    "soy": "Soya",
+    "nuts": "Kuruyemiş",
+    "note": "Alerji veya hassasiyetleriniz varsa lütfen bize söyleyin. Memnuniyetle yardımcı oluruz."
+  },
+  "home": {
+    "eyebrow": "Uygur restoranı · Winterthur",
+    "heroTitle": "El çekmesi erişte. Ateş. Misafirperverlik.",
+    "heroText": "Karahan, İpek Yolu mutfağını Winterthur'a getiriyor: taze çekilmiş hamurdan lagman, kazandan polo, kömür ateşinde kebap. Hepsi helal, hepsi el emeği.",
+    "heroCta": "Masa ayırt",
+    "heroSecondary": "Menüye bak",
+    "signatureEyebrow": "Bilmeniz gereken üç yemek",
+    "signatureTitle": "Tavsiyelerimiz",
+    "firstTimeEyebrow": "Uygur mutfağını ilk kez mi deniyorsunuz?",
+    "firstTimeTitle": "Buradan başlayın",
+    "firstTimeText": "Uygur mutfağı Orta Asya ile Çin arasında durur: hamur, kuzu, baharat ve bol taze sebze. İlk kez deniyorsanız bu üçünü sipariş edin. Birlikte bütün hikâyeyi anlatırlar.",
+    "firstTimeSteps": {
+      "1": { "title": "Lagman", "text": "Kuzu etli ve sebzeli el çekmesi erişte. Bir Uygur mutfağının ölçüldüğü yemek." },
+      "2": { "title": "Polo", "text": "Pirinç, kuzu, havuç. Basit görünür, saatler ister. Tatlı, tuzlu, derin." },
+      "3": { "title": "Şiş kebap", "text": "Kömür ateşinde kuzu, kimyon, pul biber. Izgaradan doğrudan masanıza." }
+    },
+    "firstTimeCta": "Tüm yemekleri gör",
+    "craftEyebrow": "El emeği",
+    "craftTitle": "Gördüğünüz şey şu anda yapılıyor",
+    "craftText": "Hamurumuz sabah yoğrulur, çekilene kadar dinlenir. Mantı ve çüçüre tek tek elde kapatılır. Kebap asla bekletilmez: ızgaradan masaya gelir.",
+    "craftPoints": {
+      "1": "Hamur her gün taze, erişte siparişle çekilir",
+      "2": "Helal sertifikalı kuzu ve tavuk",
+      "3": "Kaşgar baharatları: kimyon, pul biber, safran"
+    },
+    "cultureEyebrow": "Kültür",
+    "cultureTitle": "Winterthur'da bir parça Kaşgar",
+    "cultureText": "Sütunlardaki ikat kumaşlar, doppa şapkalar, Ürümçi, Turfan ve Heytgah Camii fotoğrafları: Karahan'daki her şey mutfağımızın memleketini anlatır. Uygur kültüründe misafir asla sadece müşteri değildir. Oturan herkese önce çay gelir.",
+    "cultureCta": "Hikâyemiz",
+    "sharingEyebrow": "Paylaşmak için",
+    "sharingTitle": "Büyük tabaklar, uzun akşamlar",
+    "sharingText": "Dapanji, ızgara tabağı, göşnan: bazı yemekler masanın ortası için yapılır. Aileler, arkadaşlar, ekipler için.",
+    "sharingCta": "Gruplar & Etkinlikler",
+    "visitEyebrow": "Ziyaret",
+    "visitTitle": "Saatler & Ulaşım",
+    "visitText": "Winterthur Ana Garı'na birkaç dakika. Yakında otopark var.",
+    "reviewsEyebrow": "Yorumlar",
+    "reviewsTitle": "Misafirlerimiz ne diyor",
+    "reviewsPending": "Yakında açılıyoruz. İlk yorumlar açılıştan sonra burada görünecek.",
+    "instagramTitle": "Mutfağımızdan",
+    "instagramText": "Her gün Instagram ve TikTok'ta yeni kareler.",
+    "bookBannerTitle": "Masa ayırtın",
+    "bookBannerText": "Online, bir dakikadan kısa sürede. E-posta ile onay, iki saat öncesine kadar ücretsiz iptal."
+  },
+  "menu": {
+    "title": "Menü",
+    "intro": "Bu menüdeki her şey helaldir. Hamur işleri her gün elde yapılır. Fiyatlar CHF, KDV dahil.",
+    "jumpTo": "Git",
+    "filterAll": "Tümü",
+    "filterVegetarian": "Vejetaryen & vegan",
+    "filterSpicy": "Acılı",
+    "filterSignature": "Tavsiyeler",
+    "noResults": "Bu filtreye uyan yemek yok.",
+    "downloadHint": "Menüyü yazdırmak ister misiniz? Tarayıcınızın yazdırma özelliğini kullanın.",
+    "originalLabel": "Uygurca"
+  },
+  "reservation": {
+    "title": "Masa ayırtın",
+    "intro": "Tarih, saat ve kişi sayısını seçin. Hemen e-posta ile onay alırsınız.",
+    "stepDate": "Tarih",
+    "stepTime": "Saat",
+    "stepGuests": "Kişi",
+    "stepDetails": "Bilgileriniz",
+    "guests": "{count, plural, =1 {1 kişi} other {# kişi}}",
+    "largeGroup": "{max} kişiden fazla mı? Grup formunu kullanın veya bizi arayın.",
+    "largeGroupLink": "Grup talebi",
+    "noSlots": "Bu gün için online boş masa kalmadı. Bizi arayın, genellikle yer bulunur.",
+    "closedDay": "Restoran bu gün kapalıdır.",
+    "loadingSlots": "Uygun saatler yükleniyor…",
+    "name": "Ad Soyad",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "occasion": "Vesile (isteğe bağlı)",
+    "occasionOptions": {
+      "none": "Özel bir vesile yok",
+      "birthday": "Doğum günü",
+      "business": "İş yemeği",
+      "family": "Aile kutlaması",
+      "other": "Diğer"
+    },
+    "notes": "Notlar (isteğe bağlı)",
+    "notesHint": "Alerjiler, mama sandalyesi, tekerlekli sandalye, cam kenarı…",
+    "privacy": "Bilgilerimin rezervasyonun işlenmesi için saklanmasını kabul ediyorum. Ayrıntılar {link} içinde.",
+    "privacyLink": "gizlilik politikası",
+    "submit": "Rezervasyonu onayla",
+    "submitting": "Gönderiliyor…",
+    "successTitle": "Rezerve edildi. Sizi bekliyoruz.",
+    "successText": "Onay {email} adresine gönderildi. Gelmezse spam klasörünü kontrol edin.",
+    "summary": "Özet",
+    "cancelInfo": "Randevudan {hours} saat öncesine kadar ücretsiz iptal edebilirsiniz. Bağlantı e-postada.",
+    "addToCalendar": "Takvime ekle",
+    "errors": {
+      "generic": "Bir sorun oluştu. Lütfen tekrar deneyin veya bizi arayın.",
+      "slotTaken": "Bu saat az önce doldu. Lütfen başka bir saat seçin.",
+      "invalid": "Lütfen bilgilerinizi kontrol edin.",
+      "nameRequired": "Lütfen adınızı girin.",
+      "phoneInvalid": "Lütfen geçerli bir telefon numarası girin.",
+      "emailInvalid": "Lütfen geçerli bir e-posta adresi girin.",
+      "consentRequired": "Lütfen gizlilik politikasını onaylayın."
+    },
+    "status": {
+      "PENDING": "Alındı",
+      "CONFIRMED": "Onaylandı",
+      "CANCELLED": "İptal edildi",
+      "NO_SHOW": "Gelmedi",
+      "SEATED": "Masada"
+    },
+    "detail": {
+      "title": "Rezervasyonunuz",
+      "cancelled": "Bu rezervasyon iptal edildi.",
+      "cancel": "Rezervasyonu iptal et",
+      "cancelConfirm": "Bu rezervasyonu gerçekten iptal etmek istiyor musunuz?",
+      "cancelTooLate": "İptal süresi geçti. Lütfen bizi arayın.",
+      "notFound": "Bu rezervasyon bulunamadı."
+    }
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "lead": "Karahan, Winterthur'da bir Uygur restoranıdır. Evde pişirdiğimizi pişiriyoruz: hamur, kuzu, sebze, baharat ve çay. Basitleştirmeden, uyarlamadan.",
+    "whyEyebrow": "Neden Karahan",
+    "whyTitle": "Neredeyse kimsenin bilmediği bir mutfak",
+    "whyText1": "Uygurlar yüzyıllardır İpek Yolu üzerinde, Orta Asya ile Çin arasında yaşıyor. Mutfakları ikisini de taşır: doğudan çekme erişte ve wok, batıdan pilav, kebap ve mantı. Helal, baharatlı, bol sebzeli.",
+    "whyText2": "İsviçre'de bu mutfak neredeyse hiç yok. Karahan'ı bunu değiştirmek için açtık. İsim, 10. yüzyılda Kaşgar'dan hüküm süren Karahanlılar'dan gelir.",
+    "cuisineEyebrow": "Mutfak",
+    "cuisineTitle": "Bilmeniz gereken dört şey",
+    "cuisinePoints": {
+      "1": { "title": "Hamur esastır", "text": "Lagman kesilmez, çekilir. Mantı ve çüçüre kapatılır, samsa ve göşnan pişirilir. Hepsi her gün taze." },
+      "2": { "title": "Kuzu, kimyon, pul biber", "text": "Izgaranın temel baharatları. Çay ve çorbalarda yıldız anason, kişniş ve safran." },
+      "3": { "title": "Her şey helal", "text": "Helal sertifikalı et, domuz eti yok, yemeklerde alkol yok." },
+      "4": { "title": "Birlikte yemek", "text": "Büyük tabaklar ortaya gelir. Önce çay gelir. Bizimle oturan misafirdir, müşteri değil." }
+    },
+    "placesEyebrow": "Duvarlarımızdaki yerler",
+    "placesTitle": "Kaşgar, Ürümçi, Turfan",
+    "places": {
+      "kashgar": { "title": "Kaşgar", "text": "Taklamakan'ın batı ucundaki eski vaha şehri. Heytgah Camii, pazar günü pazarı, çayhaneler. Lagmanımız buradan gelir." },
+      "urumqi": { "title": "Ürümçi", "text": "Tanrı Dağları'nın eteğindeki başkent. Büyük mutfak, büyük tabaklar. Dapanji en bilinen yemeğidir." },
+      "turpan": { "title": "Turfan", "text": "En alçak ve en sıcak vaha. Üzüm, kuru üzüm, kavun. Polomuzdaki kuru üzümler onu hatırlatır." }
+    },
+    "teamEyebrow": "Ekip",
+    "teamTitle": "Karahan'ın arkasındakiler",
+    "teamText": "Ekip fotoğrafları ve isimleri açılışta eklenecek.",
+    "teamPlaceholder": "Fotoğraf eklenecek"
+  },
+  "events": {
+    "title": "Gruplar & Etkinlikler",
+    "lead": "Aile kutlamaları, şirket yemekleri, doğum günleri. {min} ve üzeri gruplar için paylaşımlık menüler hazırlıyoruz. İsteğe bağlı olarak size özel bir alan ayırıyoruz.",
+    "offerEyebrow": "Sunduklarımız",
+    "offers": {
+      "1": { "title": "Grup menüsü", "text": "Paylaşımlık üç–dört kap, {min} kişiden itibaren. Başlangıçlar, samsa, ızgara, masanın ortası için lagman ve polo, çay ve tatlı." },
+      "2": { "title": "Tüm restoran", "text": "{seats} kişiye kadar etkinlikler için, genellikle Pazar ve Pazartesi günleri. Tarih sorun." },
+      "3": { "title": "Catering", "text": "Ofis ve kutlamalar için samsa, mantı, salata ve polo. Winterthur ve çevresinde teslim alma veya teslimat." }
+    },
+    "formTitle": "Talep gönderin",
+    "formText": "Bir iş günü içinde dönüş yaparız.",
+    "date": "Tercih edilen tarih",
+    "guests": "Kişi sayısı",
+    "type": "Etkinlik türü",
+    "types": { "group": "Grup rezervasyonu", "private": "Tüm restoran", "catering": "Catering" },
+    "message": "Mesaj",
+    "submit": "Talep gönder",
+    "success": "Teşekkürler. Talebiniz bize ulaştı, bir iş günü içinde dönüş yaparız.",
+    "error": "Bir sorun oluştu. Lütfen doğrudan {email} adresine yazın."
+  },
+  "gallery": {
+    "title": "Galeri",
+    "lead": "Salon, mutfak ve yemekler. «Örnek görsel» işaretli görseller, açılıştan sonra kendi fotoğraflarımızla değiştirilecek geçici görsellerdir.",
+    "sections": { "interior": "Salon", "kitchen": "Mutfak", "dishes": "Yemekler" }
+  },
+  "contact": {
+    "title": "İletişim & Ulaşım",
+    "lead": "Winterthur Ana Garı'na birkaç dakika uzaklıktayız.",
+    "directionsTitle": "Ulaşım",
+    "byTrain": "Trenle",
+    "byTrainText": "Winterthur Ana Garı'ndan yürüyerek veya otobüsle. Kesin hat bilgisi adresle birlikte eklenecek.",
+    "byCar": "Arabayla",
+    "byCarText": "Yakında halka açık otoparklar. Ayrıntılar adresle birlikte eklenecek.",
+    "mapCta": "Google Haritalar'da aç",
+    "whatsapp": "WhatsApp'tan yazın",
+    "reservationsTitle": "Rezervasyon",
+    "reservationsText": "En hızlısı online. {max} ve üzeri gruplar için lütfen grup formunu kullanın veya arayın."
+  },
+  "footer": {
+    "tagline": "Winterthur'da Uygur mutfağı. El yapımı, helal, çaylı.",
+    "legal": "Yasal",
+    "imprint": "Künye",
+    "privacy": "Gizlilik",
+    "copyright": "© {year} {name}. Tüm hakları saklıdır.",
+    "madeIn": "Winterthur, İsviçre"
+  },
+  "legal": {
+    "imprintTitle": "Künye",
+    "privacyTitle": "Gizlilik politikası"
+  },
+  "notFound": {
+    "title": "Bu sayfa yok",
+    "text": "Belki menü yardımcı olur.",
+    "cta": "Ana sayfaya dön"
+  }
+}

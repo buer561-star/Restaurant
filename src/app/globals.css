@@ -1,0 +1,174 @@
+@import "tailwindcss";
+
+/* ---------- Karahan Design Tokens ---------- */
+@theme {
+  --color-navy: #0b1f3a;
+  --color-navy-2: #132c4f;
+  --color-navy-3: #1c3a63;
+  --color-gold: #c9a227;
+  --color-gold-2: #a8861c;
+  --color-gold-3: #e6c85a;
+  --color-teal: #2a9d9f;
+  --color-teal-2: #1f7d7f;
+  --color-ikat: #b3312d;
+  --color-ivory: #f5efe3;
+  --color-ivory-2: #fbf8f1;
+  --color-sand: #e9e0cc;
+  --color-sand-2: #d9cfb6;
+  --color-ink: #1b2233;
+  --color-ink-2: #4b5566;
+  --color-ink-3: #7b8494;
+  --color-line: #d9d0bc;
+
+  --font-display: var(--font-cinzel), "Cinzel", "Trajan Pro", Georgia, serif;
+  --font-serif: var(--font-source-serif), "Source Serif 4", Georgia, serif;
+  --font-sans: var(--font-figtree), "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --shadow-soft: 0 1px 2px rgb(11 31 58 / 0.06), 0 8px 24px rgb(11 31 58 / 0.08);
+  --shadow-lift: 0 2px 4px rgb(11 31 58 / 0.08), 0 16px 40px rgb(11 31 58 / 0.14);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+body {
+  background: var(--color-ivory);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 { text-wrap: balance; }
+p { text-wrap: pretty; }
+
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 3px;
+}
+
+/* ---------- Utilities ---------- */
+@utility container-page {
+  width: 100%;
+  max-width: 76rem;
+  margin-inline: auto;
+  padding-inline: clamp(1rem, 4vw, 2.5rem);
+}
+
+@utility eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-gold-2);
+}
+
+@utility display {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.08;
+}
+
+@utility serif {
+  font-family: var(--font-serif);
+}
+
+@utility tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Gold hairline with center ornament */
+.rule-gold {
+  position: relative;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-gold) 20%, var(--color-gold) 80%, transparent);
+}
+.rule-gold::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: var(--color-gold);
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 3rem;
+  padding: 0.75rem 1.5rem;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  border-radius: 2px;
+  transition: background-color 150ms ease, color 150ms ease, transform 150ms ease, box-shadow 150ms ease;
+  white-space: nowrap;
+}
+.btn:active { transform: translateY(1px); }
+.btn-gold { background: var(--color-gold); color: var(--color-navy); }
+.btn-gold:hover { background: var(--color-gold-3); }
+.btn-navy { background: var(--color-navy); color: var(--color-ivory); }
+.btn-navy:hover { background: var(--color-navy-3); }
+.btn-outline { border: 1px solid var(--color-navy); color: var(--color-navy); background: transparent; }
+.btn-outline:hover { background: var(--color-navy); color: var(--color-ivory); }
+.btn-outline-light { border: 1px solid rgb(245 239 227 / 0.6); color: var(--color-ivory); background: transparent; }
+.btn-outline-light:hover { border-color: var(--color-ivory); background: rgb(245 239 227 / 0.1); }
+
+/* Form controls */
+.field {
+  width: 100%;
+  min-height: 3rem;
+  padding: 0.7rem 0.9rem;
+  background: #fff;
+  border: 1px solid var(--color-line);
+  border-radius: 2px;
+  color: var(--color-ink);
+  font-size: 1rem;
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+.field:hover { border-color: var(--color-sand-2); }
+.field:focus { border-color: var(--color-navy); outline: none; box-shadow: 0 0 0 3px rgb(201 162 39 / 0.25); }
+.field[aria-invalid="true"] { border-color: var(--color-ikat); }
+.label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-ink-2);
+}
+
+/* Slot chips */
+.chip {
+  min-height: 2.75rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--color-line);
+  border-radius: 2px;
+  background: #fff;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  transition: all 120ms ease;
+}
+.chip:hover:not(:disabled) { border-color: var(--color-navy); }
+.chip[aria-pressed="true"] { background: var(--color-navy); color: var(--color-ivory); border-color: var(--color-navy); }
+.chip:disabled { opacity: 0.35; cursor: not-allowed; text-decoration: line-through; }
+
+/* Print: menu */
+@media print {
+  header, footer, .no-print { display: none !important; }
+  body { background: #fff; }
+}

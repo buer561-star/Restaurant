@@ -1,0 +1,274 @@
+{
+  "meta": {
+    "title": "Karahan Uyghur Restaurant Winterthur",
+    "description": "Uyghur cuisine in Winterthur: hand-pulled laghman, polo, manti and charcoal kebab. Halal. Book a table online.",
+    "menuTitle": "Menu",
+    "menuDescription": "The Karahan menu: handmade noodles and dumplings, grill, polo, tea and dessert. All prices in CHF.",
+    "reservationTitle": "Book a table",
+    "reservationDescription": "Reserve a table online at Karahan Uyghur Restaurant in Winterthur. Confirmation by email.",
+    "aboutTitle": "About us",
+    "aboutDescription": "Why Karahan: Uyghur food, culture and hospitality in Winterthur.",
+    "eventsTitle": "Groups & Events",
+    "eventsDescription": "Family celebrations, company dinners and catering at Karahan Winterthur. Send a request.",
+    "galleryTitle": "Gallery",
+    "galleryDescription": "Pictures from Karahan: dining room, kitchen and dishes.",
+    "contactTitle": "Contact & Directions",
+    "contactDescription": "Address, opening hours, phone and directions to Karahan Uyghur Restaurant in Winterthur."
+  },
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "reservation": "Reservations",
+    "about": "About",
+    "events": "Groups & Events",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "book": "Book a table",
+    "call": "Call",
+    "directions": "Directions",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language"
+  },
+  "common": {
+    "placeholderBadge": "Sample image",
+    "placeholderHint": "AI-generated placeholder, to be replaced with a real photo.",
+    "pricesPlaceholder": "Prices are provisional and will be confirmed before opening.",
+    "halal": "Halal",
+    "handmade": "Handmade",
+    "openingSoon": "Opening {date}",
+    "closed": "Closed",
+    "closedToday": "Closed today",
+    "openToday": "Open today",
+    "weekdays": {
+      "0": "Sunday", "1": "Monday", "2": "Tuesday", "3": "Wednesday", "4": "Thursday", "5": "Friday", "6": "Saturday"
+    },
+    "weekdaysShort": {
+      "0": "Sun", "1": "Mon", "2": "Tue", "3": "Wed", "4": "Thu", "5": "Fri", "6": "Sat"
+    },
+    "hours": "Opening hours",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "followUs": "Follow us",
+    "readMore": "Read more",
+    "viewMenu": "View the menu",
+    "back": "Back"
+  },
+  "tags": {
+    "vegetarian": "Vegetarian",
+    "vegan": "Vegan",
+    "spicy": "Spicy",
+    "signature": "Signature",
+    "sharing": "For sharing",
+    "handmade": "Handmade"
+  },
+  "allergens": {
+    "title": "Allergens",
+    "gluten": "Gluten",
+    "egg": "Egg",
+    "milk": "Milk",
+    "sesame": "Sesame",
+    "soy": "Soy",
+    "nuts": "Nuts",
+    "note": "Please tell us about allergies or intolerances. We are happy to advise."
+  },
+  "home": {
+    "eyebrow": "Uyghur restaurant · Winterthur",
+    "heroTitle": "Hand-pulled noodles. Fire. Hospitality.",
+    "heroText": "Karahan brings the cooking of the Silk Road to Winterthur: laghman from freshly pulled dough, polo from the kazan, kebab over charcoal. All halal, all by hand.",
+    "heroCta": "Book a table",
+    "heroSecondary": "See the menu",
+    "signatureEyebrow": "Three dishes you should know",
+    "signatureTitle": "Our signatures",
+    "firstTimeEyebrow": "First time trying Uyghur food?",
+    "firstTimeTitle": "Start here",
+    "firstTimeText": "Uyghur cuisine sits between Central Asia and China: dough, lamb, spices and plenty of fresh vegetables. If it is new to you, order these three. Together they tell the whole story.",
+    "firstTimeSteps": {
+      "1": { "title": "Laghman", "text": "Hand-pulled noodles with lamb and vegetables. The dish a Uyghur kitchen is judged by." },
+      "2": { "title": "Polo", "text": "Rice, lamb, carrots. Looks simple, takes hours. Sweet, salty, deep." },
+      "3": { "title": "Shish kebab", "text": "Lamb over charcoal, cumin, chili. Comes straight from the grill to your table." }
+    },
+    "firstTimeCta": "See all dishes",
+    "craftEyebrow": "Craft",
+    "craftTitle": "What you see is being made right now",
+    "craftText": "Our dough is kneaded in the morning and rests until it is pulled. Manti and chüchüre are folded one by one by hand. The kebab never waits: it goes from grill to table.",
+    "craftPoints": {
+      "1": "Dough fresh daily, noodles pulled to order",
+      "2": "Lamb and chicken from halal-certified sources",
+      "3": "Spices from Kashgar: cumin, chili, saffron"
+    },
+    "cultureEyebrow": "Culture",
+    "cultureTitle": "A piece of Kashgar in Winterthur",
+    "cultureText": "The ikat fabrics on the columns, the doppa hats, the pictures of Ürümqi, Turpan and the Heytgah mosque: everything at Karahan speaks of where our food comes from. In Uyghur culture a guest is never just a customer. Whoever sits down gets tea first.",
+    "cultureCta": "Our story",
+    "sharingEyebrow": "For sharing",
+    "sharingTitle": "Big plates, long evenings",
+    "sharingText": "Dapanji, mixed grill, göshnan: some dishes are made for the middle of the table. For families, friends, teams.",
+    "sharingCta": "Groups & Events",
+    "visitEyebrow": "Visit",
+    "visitTitle": "Hours & Directions",
+    "visitText": "A few minutes from Winterthur main station. Parking nearby.",
+    "reviewsEyebrow": "Voices",
+    "reviewsTitle": "What guests say",
+    "reviewsPending": "We are opening soon. The first reviews will appear here after opening.",
+    "instagramTitle": "From our kitchen",
+    "instagramText": "New glimpses every day on Instagram and TikTok.",
+    "bookBannerTitle": "Book a table",
+    "bookBannerText": "Online in under a minute. Confirmation by email, free cancellation up to two hours before."
+  },
+  "menu": {
+    "title": "Menu",
+    "intro": "Everything on this menu is halal. Noodles and dumplings are made by hand every day. Prices in CHF including VAT.",
+    "jumpTo": "Jump to",
+    "filterAll": "All",
+    "filterVegetarian": "Vegetarian & vegan",
+    "filterSpicy": "Spicy",
+    "filterSignature": "Signatures",
+    "noResults": "No dishes match this filter.",
+    "downloadHint": "Want a printed copy? Use your browser's print function.",
+    "originalLabel": "Uyghur"
+  },
+  "reservation": {
+    "title": "Book a table",
+    "intro": "Choose date, time and number of guests. You will receive a confirmation by email right away.",
+    "stepDate": "Date",
+    "stepTime": "Time",
+    "stepGuests": "Guests",
+    "stepDetails": "Your details",
+    "guests": "{count, plural, =1 {1 guest} other {# guests}}",
+    "largeGroup": "More than {max} guests? Use the group form or give us a call.",
+    "largeGroupLink": "Group request",
+    "noSlots": "No online tables left on this day. Call us, there is often still room.",
+    "closedDay": "The restaurant is closed on this day.",
+    "loadingSlots": "Loading available times…",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "occasion": "Occasion (optional)",
+    "occasionOptions": {
+      "none": "No special occasion",
+      "birthday": "Birthday",
+      "business": "Business dinner",
+      "family": "Family celebration",
+      "other": "Other"
+    },
+    "notes": "Notes (optional)",
+    "notesHint": "Allergies, high chair, wheelchair, window seat…",
+    "privacy": "I agree that my details are stored to process this reservation. See the {link}.",
+    "privacyLink": "privacy policy",
+    "submit": "Confirm reservation",
+    "submitting": "Sending…",
+    "successTitle": "Booked. We look forward to seeing you.",
+    "successText": "A confirmation is on its way to {email}. If it does not arrive, check your spam folder.",
+    "summary": "Summary",
+    "cancelInfo": "You can cancel free of charge up to {hours} hours before. The link is in the email.",
+    "addToCalendar": "Add to calendar",
+    "errors": {
+      "generic": "That did not work. Please try again or call us.",
+      "slotTaken": "This time slot has just been taken. Please choose another time.",
+      "invalid": "Please check your details.",
+      "nameRequired": "Please enter your name.",
+      "phoneInvalid": "Please enter a valid phone number.",
+      "emailInvalid": "Please enter a valid email address.",
+      "consentRequired": "Please accept the privacy policy."
+    },
+    "status": {
+      "PENDING": "Received",
+      "CONFIRMED": "Confirmed",
+      "CANCELLED": "Cancelled",
+      "NO_SHOW": "No-show",
+      "SEATED": "Seated"
+    },
+    "detail": {
+      "title": "Your reservation",
+      "cancelled": "This reservation has been cancelled.",
+      "cancel": "Cancel reservation",
+      "cancelConfirm": "Do you really want to cancel this reservation?",
+      "cancelTooLate": "The cancellation window has passed. Please call us.",
+      "notFound": "This reservation was not found."
+    }
+  },
+  "about": {
+    "title": "About us",
+    "lead": "Karahan is a Uyghur restaurant in Winterthur. We cook what we cooked at home: dough, lamb, vegetables, spices and tea. Not simplified, not adapted.",
+    "whyEyebrow": "Why Karahan",
+    "whyTitle": "A cuisine almost nobody knows",
+    "whyText1": "The Uyghurs have lived along the Silk Road for centuries, between Central Asia and China. Their food carries both: pulled noodles and wok from the east, pilaf, kebab and dumplings from the west. Halal, spiced, full of vegetables.",
+    "whyText2": "In Switzerland this cuisine is almost nowhere to be found. We opened Karahan to change that. The name goes back to the Karakhanids, who ruled from Kashgar in the 10th century.",
+    "cuisineEyebrow": "The food",
+    "cuisineTitle": "Four things to know",
+    "cuisinePoints": {
+      "1": { "title": "Dough is the main event", "text": "Laghman is pulled, not cut. Manti and chüchüre are folded, samsa and göshnan baked. All made fresh every day." },
+      "2": { "title": "Lamb, cumin, chili", "text": "The base spices at the grill. Star anise, coriander and saffron in teas and soups." },
+      "3": { "title": "Everything is halal", "text": "Meat from halal-certified sources, no pork, no alcohol in the food." },
+      "4": { "title": "Eating together", "text": "Big plates go in the middle. Tea comes first. Whoever sits with us is a guest, not a customer." }
+    },
+    "placesEyebrow": "The places on our walls",
+    "placesTitle": "Kashgar, Ürümqi, Turpan",
+    "places": {
+      "kashgar": { "title": "Kashgar", "text": "The old oasis city on the western edge of the Taklamakan. The Heytgah mosque, the Sunday market, the tea houses. This is where our laghman comes from." },
+      "urumqi": { "title": "Ürümqi", "text": "The capital, set against the Tianshan mountains. Big kitchens, big plates. Dapanji is its best-known dish." },
+      "turpan": { "title": "Turpan", "text": "The lowest and hottest oasis. Grapes, raisins, melons. The raisins in our polo are a nod to it." }
+    },
+    "teamEyebrow": "Team",
+    "teamTitle": "The people behind Karahan",
+    "teamText": "Team photos and names will follow at opening.",
+    "teamPlaceholder": "Photo to follow"
+  },
+  "events": {
+    "title": "Groups & Events",
+    "lead": "Family celebrations, company dinners, birthdays. For groups of {min} or more we put together sharing menus. On request we reserve an area for you.",
+    "offerEyebrow": "What we offer",
+    "offers": {
+      "1": { "title": "Group menu", "text": "Three to four courses to share, from {min} guests. Starters, samsa, grill, laghman and polo for the middle of the table, tea and dessert." },
+      "2": { "title": "Whole restaurant", "text": "For events up to {seats} guests, usually on Sundays and Mondays. Ask about dates." },
+      "3": { "title": "Catering", "text": "Samsa, manti, salads and polo for the office or a party. Pick-up or delivery in Winterthur and surroundings." }
+    },
+    "formTitle": "Send a request",
+    "formText": "We reply within one working day.",
+    "date": "Preferred date",
+    "guests": "Number of guests",
+    "type": "Type of event",
+    "types": { "group": "Group reservation", "private": "Whole restaurant", "catering": "Catering" },
+    "message": "Message",
+    "submit": "Send request",
+    "success": "Thank you. We have received your request and will reply within one working day.",
+    "error": "That did not work. Please email us directly at {email}."
+  },
+  "gallery": {
+    "title": "Gallery",
+    "lead": "Dining room, kitchen and dishes. Images marked \"Sample image\" are placeholders that will be replaced with our own photos after opening.",
+    "sections": { "interior": "Dining room", "kitchen": "Kitchen", "dishes": "Dishes" }
+  },
+  "contact": {
+    "title": "Contact & Directions",
+    "lead": "We are a few minutes from Winterthur main station.",
+    "directionsTitle": "Getting here",
+    "byTrain": "By train",
+    "byTrainText": "From Winterthur main station on foot or by bus. Exact line to follow with the final address.",
+    "byCar": "By car",
+    "byCarText": "Public car parks nearby. Details to follow with the final address.",
+    "mapCta": "Open in Google Maps",
+    "whatsapp": "Message us on WhatsApp",
+    "reservationsTitle": "Reservations",
+    "reservationsText": "Fastest online. For groups of {max} or more please use the group form or call."
+  },
+  "footer": {
+    "tagline": "Uyghur cuisine in Winterthur. Handmade, halal, with tea.",
+    "legal": "Legal",
+    "imprint": "Imprint",
+    "privacy": "Privacy",
+    "copyright": "© {year} {name}. All rights reserved.",
+    "madeIn": "Winterthur, Switzerland"
+  },
+  "legal": {
+    "imprintTitle": "Imprint",
+    "privacyTitle": "Privacy policy"
+  },
+  "notFound": {
+    "title": "This page does not exist",
+    "text": "The menu might help.",
+    "cta": "Back to home"
+  }
+}
