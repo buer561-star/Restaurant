@@ -86,61 +86,61 @@
     "note": "Please tell us about allergies or intolerances. We are happy to advise."
   },
   "home": {
-    "eyebrow": "Uyghur restaurant · Winterthur",
-    "heroTitle": "Hand-pulled noodles. Fire. Hospitality.",
-    "heroText": "Karahan brings the cooking of the Silk Road to Winterthur: laghman from freshly pulled dough, polo from the kazan, kebab over charcoal. All halal, all by hand.",
+    "eyebrow": "Restaurant · Winterthur",
+    "heroTitle": "Uyghur cuisine in Winterthur",
+    "heroText": "Laghman with hand-pulled noodles, polo from the kazan, lamb from the charcoal grill. All halal, all made in our kitchen.",
     "heroCta": "Book a table",
     "heroSecondary": "See the menu",
-    "signatureEyebrow": "Three dishes you should know",
-    "signatureTitle": "Our signatures",
-    "firstTimeEyebrow": "First time trying Uyghur food?",
-    "firstTimeTitle": "Start here",
-    "firstTimeText": "Uyghur cuisine sits between Central Asia and China: dough, lamb, spices and plenty of fresh vegetables. If it is new to you, order these three. Together they tell the whole story.",
+    "signatureEyebrow": "Recommended",
+    "signatureTitle": "Where most people start",
+    "firstTimeEyebrow": "First time here?",
+    "firstTimeTitle": "Three dishes to begin with",
+    "firstTimeText": "Uyghur cooking comes from Xinjiang in western China, on the old Silk Road. It has noodles and wok from one side, pilaf, kebab and dumplings from the other. If it is new to you, order these three.",
     "firstTimeSteps": {
       "1": {
         "title": "Laghman",
-        "text": "Hand-pulled noodles with lamb and vegetables. The dish a Uyghur kitchen is judged by."
+        "text": "Wheat noodles pulled by hand, with lamb, peppers, tomato and celery."
       },
       "2": {
         "title": "Polo",
-        "text": "Rice, lamb, carrots. Looks simple, takes hours. Sweet, salty, deep."
+        "text": "Rice with lamb, carrots and raisins, cooked in the kazan."
       },
       "3": {
         "title": "Shish kebab",
-        "text": "Lamb over charcoal, cumin, chili. Comes straight from the grill to your table."
+        "text": "Cubed lamb over charcoal, with cumin and chili."
       }
     },
     "firstTimeCta": "See all dishes",
-    "craftEyebrow": "Craft",
-    "craftTitle": "What you see is being made right now",
-    "craftText": "Our dough is kneaded in the morning and rests until it is pulled. Manti and chüchüre are folded one by one by hand. The kebab never waits: it goes from grill to table.",
+    "craftEyebrow": "Kitchen",
+    "craftTitle": "Dough in the morning, noodles to order",
+    "craftText": "The laghman dough is kneaded in the morning and rests until midday. It is only pulled once the order comes in. Manti and chüchüre are folded by hand. The kebab goes from the grill straight to the table.",
     "craftPoints": {
-      "1": "Dough fresh daily, noodles pulled to order",
-      "2": "Lamb and chicken from halal-certified sources",
-      "3": "Spices from Kashgar: cumin, chili, saffron"
+      "1": "Dough fresh every day, no ready-made products",
+      "2": "Lamb and chicken from halal-certified suppliers",
+      "3": "Cumin, chili, saffron, rose petals"
     },
-    "cultureEyebrow": "Culture",
-    "cultureTitle": "A piece of Kashgar in Winterthur",
-    "cultureText": "The ikat fabrics on the columns, the doppa hats, the pictures of Ürümqi, Turpan and the Heytgah mosque: everything at Karahan speaks of where our food comes from. In Uyghur culture a guest is never just a customer. Whoever sits down gets tea first.",
-    "cultureCta": "Our story",
-    "sharingEyebrow": "For sharing",
-    "sharingTitle": "Big plates, long evenings",
-    "sharingText": "Dapanji, mixed grill, göshnan: some dishes are made for the middle of the table. For families, friends, teams.",
+    "cultureEyebrow": "The room",
+    "cultureTitle": "Kashgar, Ürümqi and Turpan on the walls",
+    "cultureText": "The fabrics on the columns are ikat from Xinjiang, the caps are called doppa. The pictures show the Heytgah mosque in Kashgar, Ürümqi below the Tianshan and the ruins of Turpan. Tea comes first, ordering comes after.",
+    "cultureCta": "More about us",
+    "sharingEyebrow": "For the table",
+    "sharingTitle": "For sharing",
+    "sharingText": "Dapanji for two to three people, mixed grill for two, göshnan cut in wedges. For groups of nine or more we put a menu together.",
     "sharingCta": "Groups & Events",
     "visitEyebrow": "Visit",
-    "visitTitle": "Hours & Directions",
-    "visitText": "A few minutes from Winterthur main station. Parking nearby.",
+    "visitTitle": "Hours and directions",
+    "visitText": "A few minutes from Winterthur main station.",
     "reviewsEyebrow": "Voices",
     "reviewsTitle": "What guests say",
     "reviewsPending": "We are opening soon. The first reviews will appear here after opening.",
-    "instagramTitle": "From our kitchen",
-    "instagramText": "New glimpses every day on Instagram and TikTok.",
+    "instagramTitle": "From the kitchen",
+    "instagramText": "New pictures and videos on Instagram and TikTok.",
     "bookBannerTitle": "Book a table",
-    "bookBannerText": "Online in under a minute. Confirmation by email, free cancellation up to two hours before."
+    "bookBannerText": "Online, confirmation by email. Cancel up to two hours before."
   },
   "menu": {
     "title": "Menu",
-    "intro": "Everything on this menu is halal. Noodles and dumplings are made by hand every day. Prices in CHF including VAT.",
+    "intro": "Every dish is halal. Noodles and dumplings are made by hand daily. Prices in CHF including VAT.",
     "jumpTo": "Jump to",
     "filterAll": "All",
     "filterVegetarian": "Vegetarian & vegan",
@@ -212,68 +212,68 @@
   },
   "about": {
     "title": "About us",
-    "lead": "Karahan is a Uyghur restaurant in Winterthur. We cook what we cooked at home: dough, lamb, vegetables, spices and tea. Not simplified, not adapted.",
-    "whyEyebrow": "Why Karahan",
-    "whyTitle": "A cuisine almost nobody knows",
-    "whyText1": "The Uyghurs have lived along the Silk Road for centuries, between Central Asia and China. Their food carries both: pulled noodles and wok from the east, pilaf, kebab and dumplings from the west. Halal, spiced, full of vegetables.",
-    "whyText2": "In Switzerland this cuisine is almost nowhere to be found. We opened Karahan to change that. The name goes back to the Karakhanids, who ruled from Kashgar in the 10th century.",
+    "lead": "Karahan is a Uyghur restaurant in Winterthur. We cook what Uyghur families cook: noodles, lamb, vegetables, rice and tea.",
+    "whyEyebrow": "Origin",
+    "whyTitle": "Uyghur cooking",
+    "whyText1": "The Uyghurs live in Xinjiang in western China, on the old Silk Road. Their cooking joins noodles and wok from the east with pilaf, kebab and dumplings from Central Asia. It is halal, seasoned with cumin and chili, and uses a lot of fresh vegetables.",
+    "whyText2": "In Switzerland this cuisine has hardly existed so far. The name Karahan goes back to the Karakhanids, a dynasty that ruled from Kashgar in the 10th century.",
     "cuisineEyebrow": "The food",
-    "cuisineTitle": "Four things to know",
+    "cuisineTitle": "Four things about the food",
     "cuisinePoints": {
       "1": {
-        "title": "Dough is the main event",
-        "text": "Laghman is pulled, not cut. Manti and chüchüre are folded, samsa and göshnan baked. All made fresh every day."
+        "title": "Dough",
+        "text": "Laghman is pulled, manti and chüchüre are folded, samsa and göshnan are baked. Fresh every day."
       },
       "2": {
-        "title": "Lamb, cumin, chili",
-        "text": "The base spices at the grill. Star anise, coriander and saffron in teas and soups."
+        "title": "Spices",
+        "text": "Cumin and chili at the grill. Star anise, coriander and saffron in soups and tea."
       },
       "3": {
-        "title": "Everything is halal",
-        "text": "Meat from halal-certified sources, no pork, no alcohol in the food."
+        "title": "Halal",
+        "text": "Meat from halal-certified suppliers. No pork, no alcohol in the food."
       },
       "4": {
-        "title": "Eating together",
-        "text": "Big plates go in the middle. Tea comes first. Whoever sits with us is a guest, not a customer."
+        "title": "At the table",
+        "text": "Big plates go in the middle. Tea comes first."
       }
     },
-    "placesEyebrow": "The places on our walls",
+    "placesEyebrow": "The pictures in the restaurant",
     "placesTitle": "Kashgar, Ürümqi, Turpan",
     "places": {
       "kashgar": {
         "title": "Kashgar",
-        "text": "The old oasis city on the western edge of the Taklamakan. The Heytgah mosque, the Sunday market, the tea houses. This is where our laghman comes from."
+        "text": "Oasis city on the western edge of the Taklamakan desert. Known for the Heytgah mosque, the Sunday market and the tea houses. Laghman and samsa come from here."
       },
       "urumqi": {
         "title": "Ürümqi",
-        "text": "The capital, set against the Tianshan mountains. Big kitchens, big plates. Dapanji is its best-known dish."
+        "text": "Capital of Xinjiang, at the foot of the Tianshan mountains. Dapanji, the big plate of chicken, is the city's best-known dish."
       },
       "turpan": {
         "title": "Turpan",
-        "text": "The lowest and hottest oasis. Grapes, raisins, melons. The raisins in our polo are a nod to it."
+        "text": "An oasis 150 metres below sea level, the hottest region of China. Grapes, raisins, melons. The raisins in polo traditionally come from here."
       }
     },
     "teamEyebrow": "Team",
-    "teamTitle": "The people behind Karahan",
-    "teamText": "Team photos and names will follow at opening.",
+    "teamTitle": "Who cooks",
+    "teamText": "Names and photos of the team will be added at opening.",
     "teamPlaceholder": "Photo to follow"
   },
   "events": {
     "title": "Groups & Events",
-    "lead": "Family celebrations, company dinners, birthdays. For groups of {min} or more we put together sharing menus. On request we reserve an area for you.",
+    "lead": "Family celebrations, company dinners, birthdays. From {min} guests we put together a sharing menu and, on request, reserve a separate area.",
     "offerEyebrow": "What we offer",
     "offers": {
       "1": {
         "title": "Group menu",
-        "text": "Three to four courses to share, from {min} guests. Starters, samsa, grill, laghman and polo for the middle of the table, tea and dessert."
+        "text": "Three to four courses to share, from {min} guests: starters, samsa, grill, laghman and polo in the middle, tea and dessert."
       },
       "2": {
         "title": "Whole restaurant",
-        "text": "For events up to {seats} guests, usually on Sundays and Mondays. Ask about dates."
+        "text": "For events up to {seats} guests, usually on Sundays and Mondays. Dates on request."
       },
       "3": {
         "title": "Catering",
-        "text": "Samsa, manti, salads and polo for the office or a party. Pick-up or delivery in Winterthur and surroundings."
+        "text": "Samsa, manti, salads and polo for the office or a party. Pick-up or delivery in Winterthur and the surrounding area."
       }
     },
     "formTitle": "Send a request",
@@ -293,7 +293,7 @@
   },
   "gallery": {
     "title": "Gallery",
-    "lead": "Dining room, kitchen and dishes. Images marked \"Sample image\" are placeholders that will be replaced with our own photos after opening.",
+    "lead": "Dining room, kitchen and dishes.",
     "sections": {
       "interior": "Dining room",
       "kitchen": "Kitchen",
@@ -314,7 +314,7 @@
     "reservationsText": "Fastest online. For groups of {max} or more please use the group form or call."
   },
   "footer": {
-    "tagline": "Uyghur cuisine in Winterthur. Handmade, halal, with tea.",
+    "tagline": "Uyghur restaurant in Winterthur. Halal.",
     "legal": "Legal",
     "imprint": "Imprint",
     "privacy": "Privacy",

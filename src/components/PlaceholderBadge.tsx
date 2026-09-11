@@ -1,8 +1,10 @@
 import { useTranslations } from "next-intl";
+import { SHOW_PLACEHOLDER_BADGES } from "@/data/images";
 
 /** Kennzeichnet AI-generierte Platzhalterbilder. Verschwindet, sobald `placeholder` im Manifest auf false steht. */
 export function PlaceholderBadge({ className = "" }: { className?: string }) {
   const t = useTranslations("common");
+  if (!SHOW_PLACEHOLDER_BADGES) return null;
   return (
     <span
       title={t("placeholderHint")}

@@ -86,6 +86,7 @@ p { text-wrap: pretty; }
   font-variant-numeric: tabular-nums;
 }
 
+@layer components {
 /* Gold hairline with center ornament */
 .rule-gold {
   position: relative;
@@ -166,6 +167,8 @@ p { text-wrap: pretty; }
 .chip:hover:not(:disabled) { border-color: var(--color-navy); }
 .chip[aria-pressed="true"] { background: var(--color-navy); color: var(--color-ivory); border-color: var(--color-navy); }
 .chip:disabled { opacity: 0.35; cursor: not-allowed; text-decoration: line-through; }
+
+}
 
 /* Print: menu */
 @media print {

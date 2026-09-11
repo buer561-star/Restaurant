@@ -50,3 +50,6 @@ export const images = {
 
 /** Alle Gerichtsbilder unter /images/dishes sind AI-Platzhalter. */
 export const DISH_IMAGES_ARE_PLACEHOLDERS = true;
+
+/** Sichtbares «Beispielbild»-Badge auf der Seite. Für den öffentlichen Auftritt aus; die Markierung bleibt im Manifest. */
+export const SHOW_PLACEHOLDER_BADGES = false;

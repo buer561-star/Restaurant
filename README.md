@@ -70,7 +70,7 @@ grep -rn PLACEHOLDER src
 
 ## Bilder austauschen
 
-Alle Gerichtsbilder unter `public/images/dishes/` und die beiden Küchenbilder unter `public/images/kitchen/` sind KI-generierte Platzhalter. Sie tragen auf der Seite den Badge «Beispielbild».
+Alle Gerichtsbilder unter `public/images/dishes/` und die beiden Küchenbilder unter `public/images/kitchen/` sind KI-generierte Platzhalter. Auf der öffentlichen Seite sind sie nicht markiert (`SHOW_PLACEHOLDER_BADGES` in `src/data/images.ts` steht auf `false`); zum Prüfen kann der Badge «Beispielbild» damit eingeschaltet werden.
 
 So ersetzen Sie sie durch echte Fotos:
 

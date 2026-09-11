@@ -47,11 +47,11 @@ export function MenuBrowser({ sections }: { sections: MenuSection[] }) {
   ];
 
   return (
-    <div className="grid gap-10 lg:grid-cols-[220px_1fr]">
+    <div className="grid min-w-0 gap-10 lg:grid-cols-[220px_1fr]">
       {/* Sprungnavigation */}
-      <aside className="no-print lg:sticky lg:top-24 lg:self-start">
+      <aside className="no-print min-w-0 lg:sticky lg:top-24 lg:self-start">
         <p className="eyebrow">{t("menu.jumpTo")}</p>
-        <nav className="mt-3 flex gap-2 overflow-x-auto pb-2 lg:flex-col lg:gap-0 lg:overflow-visible" aria-label={t("menu.jumpTo")}>
+        <nav className="-mx-4 mt-3 flex max-w-[100vw] gap-2 overflow-x-auto px-4 pb-2 lg:mx-0 lg:max-w-none lg:flex-col lg:gap-0 lg:overflow-visible lg:px-0" aria-label={t("menu.jumpTo")}>
           {sections.map((s) => (
             <a
               key={s.id}
@@ -78,7 +78,7 @@ export function MenuBrowser({ sections }: { sections: MenuSection[] }) {
       </aside>
 
       {/* Sektionen */}
-      <div className="space-y-16">
+      <div className="min-w-0 space-y-16">
         {filtered.length === 0 && <p className="text-ink-2">{t("menu.noResults")}</p>}
         {filtered.map((s) => (
           <section key={s.id} id={s.id} className="scroll-mt-28">

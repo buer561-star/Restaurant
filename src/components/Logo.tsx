@@ -49,10 +49,10 @@ export function Logo({ className = "", tone = "light", withText = true, subtitle
   const text = tone === "light" ? "text-ivory" : "text-navy";
   return (
     <span className={`inline-flex items-center gap-3 ${className}`}>
-      <LogoMark className="h-11 w-11 shrink-0" />
+      <LogoMark className="h-9 w-9 shrink-0 sm:h-11 sm:w-11" />
       {withText && (
         <span className="flex flex-col leading-none">
-          <span className={`display text-[1.35rem] tracking-[0.12em] ${text}`}>KARAHAN</span>
+          <span className={`display text-[1.15rem] tracking-[0.12em] sm:text-[1.35rem] ${text}`}>KARAHAN</span>
           <span className="mt-1 text-[0.6rem] font-semibold uppercase tracking-[0.28em] text-teal">
             {subtitle ?? "Uigur Restaurant"}
           </span>

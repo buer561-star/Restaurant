@@ -86,61 +86,61 @@
     "note": "Bei Allergien oder Unverträglichkeiten sprechen Sie uns bitte an. Wir beraten Sie gerne."
   },
   "home": {
-    "eyebrow": "Uigurisches Restaurant · Winterthur",
-    "heroTitle": "Handgezogene Nudeln. Feuer. Gastfreundschaft.",
-    "heroText": "Karahan bringt die Küche der Seidenstrasse nach Winterthur: Lagman aus frisch gezogenem Teig, Polo aus dem Kessel, Kebab über Holzkohle. Alles halal, alles von Hand.",
+    "eyebrow": "Restaurant · Winterthur",
+    "heroTitle": "Uigurische Küche in Winterthur",
+    "heroText": "Lagman aus handgezogenen Nudeln, Polo aus dem Kessel, Lamm vom Holzkohlegrill. Alles halal, alles bei uns in der Küche gemacht.",
     "heroCta": "Tisch reservieren",
     "heroSecondary": "Speisekarte ansehen",
-    "signatureEyebrow": "Drei Gerichte, die Sie kennen sollten",
-    "signatureTitle": "Unsere Empfehlungen",
-    "firstTimeEyebrow": "Zum ersten Mal uigurisch?",
-    "firstTimeTitle": "So fangen Sie an",
-    "firstTimeText": "Uigurische Küche liegt zwischen Zentralasien und China: Teig, Lamm, Gewürze und viel frisches Gemüse. Wer sie nicht kennt, bestellt am besten diese drei Gerichte. Zusammen erzählen sie die ganze Geschichte.",
+    "signatureEyebrow": "Empfehlungen",
+    "signatureTitle": "Damit fangen die meisten an",
+    "firstTimeEyebrow": "Zum ersten Mal hier?",
+    "firstTimeTitle": "Drei Gerichte zum Einstieg",
+    "firstTimeText": "Uigurische Küche kommt aus Xinjiang im Westen Chinas, an der alten Seidenstrasse. Sie hat Nudeln und Wok von der einen Seite, Pilaw, Kebab und Teigtaschen von der anderen. Wenn Sie sie nicht kennen, bestellen Sie diese drei.",
     "firstTimeSteps": {
       "1": {
         "title": "Lagman",
-        "text": "Handgezogene Nudeln mit Lamm und Gemüse. Das Gericht, an dem man eine uigurische Küche misst."
+        "text": "Nudeln aus Weizenteig, von Hand gezogen. Dazu Lamm, Peperoni, Tomaten und Sellerie."
       },
       "2": {
         "title": "Polo",
-        "text": "Reis, Lamm, Karotten. Sieht einfach aus, braucht Stunden. Süss, salzig, tief."
+        "text": "Reis mit Lamm, Karotten und Rosinen, im Kessel gegart."
       },
       "3": {
         "title": "Şiş Kebab",
-        "text": "Lamm über Holzkohle, Kreuzkümmel, Chili. Kommt heiss vom Grill an den Tisch."
+        "text": "Lammwürfel über Holzkohle, mit Kreuzkümmel und Chili."
       }
     },
     "firstTimeCta": "Alle Gerichte ansehen",
-    "craftEyebrow": "Handwerk",
-    "craftTitle": "Was Sie sehen, wird gerade gemacht",
-    "craftText": "Unser Teig wird morgens geknetet und ruht, bis er gezogen wird. Manti und Çüçüre werden einzeln von Hand gefaltet. Der Kebab wartet nie: Er kommt vom Grill direkt auf den Tisch.",
+    "craftEyebrow": "Küche",
+    "craftTitle": "Teig am Morgen, Nudeln auf Bestellung",
+    "craftText": "Der Teig für Lagman wird morgens geknetet und ruht bis zum Mittag. Gezogen wird er erst, wenn die Bestellung kommt. Manti und Çüçüre falten wir von Hand. Der Kebab geht vom Grill direkt an den Tisch.",
     "craftPoints": {
-      "1": "Teig täglich frisch, Nudeln auf Bestellung gezogen",
-      "2": "Lamm und Poulet aus halal-zertifizierter Herkunft",
-      "3": "Gewürze aus Kaşgar: Kreuzkümmel, Chili, Safran"
+      "1": "Teig täglich frisch, keine Fertigprodukte",
+      "2": "Lamm und Poulet aus halal-zertifizierten Betrieben",
+      "3": "Kreuzkümmel, Chili, Safran, Rosenblüten"
     },
-    "cultureEyebrow": "Kultur",
-    "cultureTitle": "Ein Stück Kaşgar in Winterthur",
-    "cultureText": "Die Ikat-Stoffe an den Säulen, die Doppa-Hüte, die Bilder von Ürümçi, Turfan und der Heytgah-Moschee: Alles im Karahan erzählt von der Heimat unserer Küche. In der uigurischen Kultur ist ein Gast nie nur Kunde. Wer sich setzt, bekommt zuerst Tee.",
-    "cultureCta": "Unsere Geschichte",
-    "sharingEyebrow": "Zum Teilen",
-    "sharingTitle": "Grosse Teller, lange Abende",
-    "sharingText": "Dapanji, Grillplatte, Göşnan: Manche Gerichte sind für die Mitte des Tisches gemacht. Für Familien, Freunde, Teams.",
+    "cultureEyebrow": "Das Lokal",
+    "cultureTitle": "Kaşgar, Ürümçi und Turfan an der Wand",
+    "cultureText": "Die Stoffe an den Säulen sind Ikat aus Xinjiang, die Mützen heissen Doppa. Die Bilder zeigen die Heytgah-Moschee in Kaşgar, Ürümçi vor dem Tianshan und die Ruinen von Turfan. Tee kommt zuerst, bestellt wird danach.",
+    "cultureCta": "Mehr über uns",
+    "sharingEyebrow": "Für den Tisch",
+    "sharingTitle": "Zum Teilen",
+    "sharingText": "Dapanji für zwei bis drei Personen, Grillplatte für zwei, Göşnan in Stücken. Für Gruppen ab neun Personen stellen wir ein Menü zusammen.",
     "sharingCta": "Gruppen & Events",
     "visitEyebrow": "Besuch",
-    "visitTitle": "Öffnungszeiten & Anfahrt",
-    "visitText": "Wenige Minuten vom Winterthur Hauptbahnhof. Parkplätze in der Nähe.",
+    "visitTitle": "Öffnungszeiten und Anfahrt",
+    "visitText": "Wenige Minuten vom Hauptbahnhof Winterthur.",
     "reviewsEyebrow": "Stimmen",
     "reviewsTitle": "Was Gäste sagen",
     "reviewsPending": "Wir eröffnen bald. Die ersten Bewertungen erscheinen hier nach der Eröffnung.",
-    "instagramTitle": "Aus unserer Küche",
-    "instagramText": "Täglich neue Einblicke auf Instagram und TikTok.",
+    "instagramTitle": "Aus der Küche",
+    "instagramText": "Neue Bilder und Videos auf Instagram und TikTok.",
     "bookBannerTitle": "Tisch reservieren",
-    "bookBannerText": "Online in unter einer Minute. Bestätigung per E-Mail, kostenlos stornierbar bis zwei Stunden vorher."
+    "bookBannerText": "Online, Bestätigung per E-Mail. Stornieren bis zwei Stunden vorher."
   },
   "menu": {
     "title": "Speisekarte",
-    "intro": "Alles auf dieser Karte ist halal. Die Teigwaren werden täglich von Hand gemacht. Preise in CHF inklusive MwSt.",
+    "intro": "Alle Gerichte sind halal. Teigwaren machen wir täglich von Hand. Preise in CHF inklusive MwSt.",
     "jumpTo": "Direkt zu",
     "filterAll": "Alle",
     "filterVegetarian": "Vegetarisch & Vegan",
@@ -212,68 +212,68 @@
   },
   "about": {
     "title": "Über uns",
-    "lead": "Karahan ist ein uigurisches Restaurant in Winterthur. Wir kochen, was wir zu Hause gekocht haben: Teig, Lamm, Gemüse, Gewürze und Tee. Nicht vereinfacht, nicht angepasst.",
-    "whyEyebrow": "Warum Karahan",
-    "whyTitle": "Eine Küche, die kaum jemand kennt",
-    "whyText1": "Die Uiguren leben seit Jahrhunderten an der Seidenstrasse, zwischen Zentralasien und China. Ihre Küche trägt beides in sich: gezogene Nudeln und Wok aus dem Osten, Pilaw, Kebab und Teigtaschen aus dem Westen. Halal, würzig, mit viel Gemüse.",
-    "whyText2": "In der Schweiz gibt es diese Küche fast nirgends. Wir haben Karahan eröffnet, damit sich das ändert. Der Name geht auf die Karachaniden zurück, die im 10. Jahrhundert von Kaşgar aus regierten.",
+    "lead": "Karahan ist ein uigurisches Restaurant in Winterthur. Wir kochen, was in uigurischen Familien gekocht wird: Nudeln, Lamm, Gemüse, Reis und Tee.",
+    "whyEyebrow": "Herkunft",
+    "whyTitle": "Uigurische Küche",
+    "whyText1": "Die Uiguren leben in Xinjiang im Westen Chinas, an der alten Seidenstrasse. Ihre Küche verbindet Nudeln und Wok aus dem Osten mit Pilaw, Kebab und Teigtaschen aus Zentralasien. Sie ist halal, gewürzt mit Kreuzkümmel und Chili, und arbeitet viel mit frischem Gemüse.",
+    "whyText2": "In der Schweiz gibt es diese Küche bisher kaum. Der Name Karahan geht auf die Karachaniden zurück, eine Dynastie, die im 10. Jahrhundert von Kaşgar aus regierte.",
     "cuisineEyebrow": "Die Küche",
-    "cuisineTitle": "Vier Dinge, die Sie wissen sollten",
+    "cuisineTitle": "Vier Dinge zur Küche",
     "cuisinePoints": {
       "1": {
-        "title": "Teig ist die Hauptsache",
-        "text": "Lagman wird gezogen, nicht geschnitten. Manti und Çüçüre werden gefaltet, Samsa und Göşnan gebacken. Alles jeden Tag neu."
+        "title": "Teig",
+        "text": "Lagman wird gezogen, Manti und Çüçüre werden gefaltet, Samsa und Göşnan gebacken. Jeden Tag neu."
       },
       "2": {
-        "title": "Lamm, Kreuzkümmel, Chili",
-        "text": "Die Grundgewürze am Grill. Dazu Sternanis, Koriander und Safran in Tee und Suppen."
+        "title": "Gewürze",
+        "text": "Kreuzkümmel und Chili am Grill. Sternanis, Koriander und Safran in Suppen und Tee."
       },
       "3": {
-        "title": "Alles ist halal",
-        "text": "Fleisch aus halal-zertifizierter Herkunft, kein Schweinefleisch, kein Alkohol in den Speisen."
+        "title": "Halal",
+        "text": "Fleisch aus halal-zertifizierten Betrieben. Kein Schweinefleisch, kein Alkohol in den Speisen."
       },
       "4": {
-        "title": "Gemeinsam essen",
-        "text": "Grosse Teller kommen in die Mitte. Tee kommt zuerst. Wer bei uns sitzt, ist Gast, nicht Kunde."
+        "title": "Am Tisch",
+        "text": "Grosse Teller kommen in die Mitte. Tee kommt zuerst."
       }
     },
-    "placesEyebrow": "Die Orte an unseren Wänden",
+    "placesEyebrow": "Die Bilder im Lokal",
     "placesTitle": "Kaşgar, Ürümçi, Turfan",
     "places": {
       "kashgar": {
         "title": "Kaşgar",
-        "text": "Die alte Oasenstadt am westlichen Rand der Taklamakan. Die Heytgah-Moschee, der Sonntagsmarkt, die Teehäuser. Hier kommt unser Lagman her."
+        "text": "Oasenstadt am Westrand der Taklamakan-Wüste. Bekannt für die Heytgah-Moschee, den Sonntagsmarkt und die Teehäuser. Lagman und Samsa stammen von hier."
       },
       "urumqi": {
         "title": "Ürümçi",
-        "text": "Die Hauptstadt vor der Kulisse des Tianshan. Grosse Küche, grosse Teller. Dapanji ist ihr bekanntestes Gericht."
+        "text": "Hauptstadt von Xinjiang, am Fuss des Tianshan-Gebirges. Dapanji, der grosse Teller mit Poulet, ist das bekannteste Gericht der Stadt."
       },
       "turpan": {
         "title": "Turfan",
-        "text": "Die tiefste und heisseste Oase. Weintrauben, Rosinen, Melonen. Die Rosinen in unserem Polo erinnern daran."
+        "text": "Oase 150 Meter unter dem Meeresspiegel, die heisseste Region Chinas. Weintrauben, Rosinen, Melonen. Die Rosinen im Polo kommen traditionell von dort."
       }
     },
     "teamEyebrow": "Team",
-    "teamTitle": "Wer hinter Karahan steht",
-    "teamText": "Bilder und Namen des Teams folgen zur Eröffnung.",
+    "teamTitle": "Wer kocht",
+    "teamText": "Namen und Fotos des Teams ergänzen wir zur Eröffnung.",
     "teamPlaceholder": "Foto folgt"
   },
   "events": {
     "title": "Gruppen & Events",
-    "lead": "Familienfeste, Firmenessen, Geburtstage. Für Gruppen ab {min} Personen stellen wir Menüs zum Teilen zusammen. Auf Wunsch reservieren wir einen Bereich für Sie.",
+    "lead": "Familienfeste, Firmenessen, Geburtstage. Ab {min} Personen stellen wir ein Menü zum Teilen zusammen und reservieren auf Wunsch einen eigenen Bereich.",
     "offerEyebrow": "Angebot",
     "offers": {
       "1": {
         "title": "Gruppenmenü",
-        "text": "Drei bis vier Gänge zum Teilen, ab {min} Personen. Vorspeisen, Samsa, Grill, Lagman und Polo für die Mitte des Tisches, Tee und Dessert."
+        "text": "Drei bis vier Gänge zum Teilen, ab {min} Personen: Vorspeisen, Samsa, Grill, Lagman und Polo in die Mitte, Tee und Dessert."
       },
       "2": {
         "title": "Ganzes Restaurant",
-        "text": "Für Anlässe bis {seats} Personen, meist an Sonn- und Montagen. Fragen Sie nach Terminen."
+        "text": "Für Anlässe bis {seats} Personen, in der Regel sonntags und montags. Termine auf Anfrage."
       },
       "3": {
         "title": "Catering",
-        "text": "Samsa, Manti, Salate und Polo für Büro und Feier. Abholung oder Lieferung in Winterthur und Umgebung."
+        "text": "Samsa, Manti, Salate und Polo für Büro oder Feier. Abholung oder Lieferung in Winterthur und Umgebung."
       }
     },
     "formTitle": "Anfrage stellen",
@@ -293,7 +293,7 @@
   },
   "gallery": {
     "title": "Galerie",
-    "lead": "Gastraum, Küche und Gerichte. Bilder mit dem Hinweis «Beispielbild» sind Platzhalter, die nach der Eröffnung durch eigene Fotos ersetzt werden.",
+    "lead": "Gastraum, Küche und Gerichte.",
     "sections": {
       "interior": "Gastraum",
       "kitchen": "Küche",
@@ -314,7 +314,7 @@
     "reservationsText": "Am schnellsten online. Für Gruppen ab {max} Personen nutzen Sie bitte das Gruppenformular oder rufen Sie an."
   },
   "footer": {
-    "tagline": "Uigurische Küche in Winterthur. Handgemacht, halal, mit Tee.",
+    "tagline": "Uigurisches Restaurant in Winterthur. Halal.",
     "legal": "Rechtliches",
     "imprint": "Impressum",
     "privacy": "Datenschutz",

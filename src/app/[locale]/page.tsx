@@ -171,15 +171,12 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           </div>
         </section>
 
-        {/* ---------- Reviews + Book banner ---------- */}
+        {/* ---------- Instagram + Book banner ---------- */}
         <Section>
           <div className="grid gap-10 lg:grid-cols-2">
             <div>
-              <SectionHeading eyebrow={t("reviewsEyebrow")} title={t("reviewsTitle")} />
-              <p className="serif mt-6 max-w-md border-l-2 border-gold pl-5 text-ink-2">{t("reviewsPending")}</p>
-              <h3 className="display mt-12 text-xl text-navy">{t("instagramTitle")}</h3>
-              <p className="mt-2 text-ink-2">{t("instagramText")}</p>
-              <div className="mt-4 flex gap-3">
+              <SectionHeading eyebrow={t("instagramTitle")} title={t("instagramText")} />
+              <div className="mt-6 flex gap-3">
                 <a href={site.instagram} target="_blank" rel="noopener" className="btn btn-outline">Instagram</a>
                 <a href={site.tiktok} target="_blank" rel="noopener" className="btn btn-outline">TikTok</a>
               </div>

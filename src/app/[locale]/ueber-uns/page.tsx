@@ -78,13 +78,6 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
         <section className="bg-sand">
           <div className="container-page py-16 sm:py-20">
             <SectionHeading eyebrow={t("teamEyebrow")} title={t("teamTitle")} text={t("teamText")} />
-            <ul className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
-              {[1, 2, 3, 4].map((n) => (
-                <li key={n} className="flex aspect-[3/4] items-end bg-ivory-2 p-4 shadow-soft">
-                  <span className="text-xs font-semibold uppercase tracking-[0.12em] text-ink-3">{t("teamPlaceholder")}</span>
-                </li>
-              ))}
-            </ul>
           </div>
         </section>
 

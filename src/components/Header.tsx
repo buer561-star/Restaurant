@@ -53,7 +53,7 @@ export function Header({ transparent = false }: { transparent?: boolean }) {
         solid ? "bg-navy/95 shadow-soft backdrop-blur-md" : "bg-gradient-to-b from-navy/70 to-transparent"
       }`}
     >
-      <div className="container-page flex h-18 items-center justify-between gap-4">
+      <div className="container-page flex h-16 items-center justify-between gap-3 sm:h-18">
         <Link href="/" className="shrink-0">
           <Logo tone="light" />
         </Link>
@@ -82,8 +82,8 @@ export function Header({ transparent = false }: { transparent?: boolean }) {
           </Link>
         </div>
 
-        <div className="flex items-center gap-3 lg:hidden">
-          <Link href="/reservation" className="btn btn-gold min-h-10 px-3 py-2 text-sm">
+        <div className="flex items-center gap-2 lg:hidden">
+          <Link href="/reservation" className="btn btn-gold hidden min-h-10 px-3 py-2 text-sm sm:inline-flex">
             {t("book")}
           </Link>
           <button
