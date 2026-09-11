@@ -15,6 +15,10 @@ RUN pnpm install --frozen-lockfile
 FROM base AS build
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
+# Öffentliche URL wird beim Build in statische Seiten (Sitemap, Canonical, OG) eingebacken.
+# Railway übergibt Service-Variablen als Build-Argumente.
+ARG NEXT_PUBLIC_SITE_URL
+ENV NEXT_PUBLIC_SITE_URL=$NEXT_PUBLIC_SITE_URL
 ENV NEXT_TELEMETRY_DISABLED=1
 RUN pnpm prisma generate && pnpm build
 
