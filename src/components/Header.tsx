@@ -54,7 +54,7 @@ export function Header({ transparent = false }: { transparent?: boolean }) {
       }`}
     >
       <div className="container-page flex h-18 items-center justify-between gap-4">
-        <Link href="/" className="shrink-0" aria-label="Karahan">
+        <Link href="/" className="shrink-0">
           <Logo tone="light" />
         </Link>
 

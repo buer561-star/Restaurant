@@ -39,6 +39,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             alt={images.interior.alt[l]}
             fill
             priority
+            fetchPriority="high"
+            quality={55}
             sizes="100vw"
             className="object-cover object-center opacity-[0.55]"
           />
