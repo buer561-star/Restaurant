@@ -86,57 +86,80 @@
     "note": "Bei Allergien oder Unverträglichkeiten sprechen Sie uns bitte an. Wir beraten Sie gerne."
   },
   "home": {
-    "eyebrow": "Restaurant · Winterthur",
-    "heroTitle": "Uigurische Küche in Winterthur",
-    "heroText": "Lagman aus handgezogenen Nudeln, Polo aus dem Kessel, Lamm vom Holzkohlegrill. Alles halal, alles bei uns in der Küche gemacht.",
+    "heroEyebrow": "Winterthur · Uigurische Küche",
+    "heroTitle": "Von Kaşgar nach Winterthur",
+    "heroLine": "Handgezogene Nudeln. Lamm über Holzkohle. Tee zuerst.",
     "heroCta": "Tisch reservieren",
-    "heroSecondary": "Speisekarte ansehen",
-    "signatureEyebrow": "Empfehlungen",
-    "signatureTitle": "Damit fangen die meisten an",
-    "firstTimeEyebrow": "Zum ersten Mal hier?",
-    "firstTimeTitle": "Drei Gerichte zum Einstieg",
-    "firstTimeText": "Uigurische Küche kommt aus Xinjiang im Westen Chinas, an der alten Seidenstrasse. Sie hat Nudeln und Wok von der einen Seite, Pilaw, Kebab und Teigtaschen von der anderen. Wenn Sie sie nicht kennen, bestellen Sie diese drei.",
-    "firstTimeSteps": {
-      "1": {
+    "heroSecondary": "Speisekarte",
+    "scroll": "Weiter",
+    "openingSoon": "Eröffnung {date}",
+    "chaptersEyebrow": "Die Karte",
+    "chaptersTitle": "Fünf Gerichte, die man kennen sollte",
+    "chapters": {
+      "lagman": {
+        "kicker": "Handgezogen",
         "title": "Lagman",
-        "text": "Nudeln aus Weizenteig, von Hand gezogen. Dazu Lamm, Peperoni, Tomaten und Sellerie."
+        "text": "Ein Strang Weizenteig wird gezogen, gefaltet, wieder gezogen, bis er dünn ist wie eine Schnur. Dazu Lamm, Peperoni, Tomaten und Sellerie aus dem Wok."
       },
-      "2": {
+      "polo": {
+        "kicker": "Aus dem Kessel",
         "title": "Polo",
-        "text": "Reis mit Lamm, Karotten und Rosinen, im Kessel gegart."
+        "text": "Reis, Lamm, Karotten und Rosinen garen zusammen im Kessel, bis der Reis das Fett und die Süsse der Karotten aufgenommen hat."
       },
-      "3": {
+      "kebab": {
+        "kicker": "Über Holzkohle",
         "title": "Şiş Kebab",
-        "text": "Lammwürfel über Holzkohle, mit Kreuzkümmel und Chili."
+        "text": "Lammwürfel, Kreuzkümmel, Chili. Zwei Minuten über der Glut, dann sofort an den Tisch."
+      },
+      "manti": {
+        "kicker": "Von Hand gefaltet",
+        "title": "Manti",
+        "text": "Gedämpfte Teigtaschen mit Lamm und Zwiebeln, sechs Stück, mit Joghurt. Jede einzeln geschlossen."
+      },
+      "tea": {
+        "kicker": "Zuerst",
+        "title": "Tee",
+        "text": "Safran, Rosenknospen, Kardamom und Goji in der Kanne. Kommt an den Tisch, bevor die Karte kommt."
       }
     },
-    "firstTimeCta": "Alle Gerichte ansehen",
-    "craftEyebrow": "Küche",
-    "craftTitle": "Teig am Morgen, Nudeln auf Bestellung",
-    "craftText": "Der Teig für Lagman wird morgens geknetet und ruht bis zum Mittag. Gezogen wird er erst, wenn die Bestellung kommt. Manti und Çüçüre falten wir von Hand. Der Kebab geht vom Grill direkt an den Tisch.",
-    "craftPoints": {
-      "1": "Teig täglich frisch, keine Fertigprodukte",
-      "2": "Lamm und Poulet aus halal-zertifizierten Betrieben",
-      "3": "Kreuzkümmel, Chili, Safran, Rosenblüten"
+    "chapterCta": "Zur Speisekarte",
+    "roadEyebrow": "Die Route",
+    "roadTitle": "5'300 Kilometer bis zum Teller",
+    "roadText": "Kaşgar, Turfan und Ürümçi liegen an der alten Seidenstrasse im Westen Chinas. Von dort kommen die Rezepte, die Gewürze und die Bilder an unseren Wänden.",
+    "roadDistance": "KAŞGAR → WINTERTHUR · 5'328 KM",
+    "stops": {
+      "kashgar": "Kaşgar",
+      "turpan": "Turfan",
+      "urumqi": "Ürümçi",
+      "winterthur": "Winterthur"
     },
-    "cultureEyebrow": "Das Lokal",
-    "cultureTitle": "Kaşgar, Ürümçi und Turfan an der Wand",
-    "cultureText": "Die Stoffe an den Säulen sind Ikat aus Xinjiang, die Mützen heissen Doppa. Die Bilder zeigen die Heytgah-Moschee in Kaşgar, Ürümçi vor dem Tianshan und die Ruinen von Turfan. Tee kommt zuerst, bestellt wird danach.",
-    "cultureCta": "Mehr über uns",
-    "sharingEyebrow": "Für den Tisch",
-    "sharingTitle": "Zum Teilen",
-    "sharingText": "Dapanji für zwei bis drei Personen, Grillplatte für zwei, Göşnan in Stücken. Für Gruppen ab neun Personen stellen wir ein Menü zusammen.",
-    "sharingCta": "Gruppen & Events",
-    "visitEyebrow": "Besuch",
-    "visitTitle": "Öffnungszeiten und Anfahrt",
-    "visitText": "Wenige Minuten vom Hauptbahnhof Winterthur.",
-    "reviewsEyebrow": "Stimmen",
-    "reviewsTitle": "Was Gäste sagen",
-    "reviewsPending": "Wir eröffnen bald. Die ersten Bewertungen erscheinen hier nach der Eröffnung.",
-    "instagramTitle": "Aus der Küche",
-    "instagramText": "Neue Bilder und Videos auf Instagram und TikTok.",
-    "bookBannerTitle": "Tisch reservieren",
-    "bookBannerText": "Online, Bestätigung per E-Mail. Stornieren bis zwei Stunden vorher."
+    "craftEyebrow": "Die Küche",
+    "craftTitle": "Der Teig wird gezogen, wenn Sie bestellen",
+    "craftText": "Morgens geknetet, bis zum Mittag geruht. Erst mit der Bestellung wird der Strang gezogen und kommt ins kochende Wasser. Das dauert drei Minuten länger als Nudeln aus der Packung. Man schmeckt es.",
+    "craftFacts": {
+      "1": {
+        "n": "3",
+        "t": "Minuten vom Teig bis zur Nudel"
+      },
+      "2": {
+        "n": "100 %",
+        "t": "halal"
+      },
+      "3": {
+        "n": "0",
+        "t": "Fertigprodukte in der Küche"
+      }
+    },
+    "roomEyebrow": "Das Lokal",
+    "roomTitle": "Ikat, Marmor, warmes Licht",
+    "roomText": "Die Stoffe an den Säulen sind Ikat aus Xinjiang, die Mützen heissen Doppa. An den Wänden hängen die Heytgah-Moschee in Kaşgar, Ürümçi und Turfan.",
+    "roomCta": "Mehr über uns",
+    "bookEyebrow": "Reservation",
+    "bookTitle": "Ein Tisch für Sie",
+    "bookText": "Datum und Personen wählen, den Rest erledigen wir. Bestätigung per E-Mail, stornieren bis zwei Stunden vorher.",
+    "sharingTitle": "Für den ganzen Tisch",
+    "sharingText": "Dapanji für zwei bis drei, Grillplatte für zwei, Göşnan in Stücken. Ab neun Personen stellen wir ein Menü zusammen.",
+    "sharingCta": "Gruppen & Events"
   },
   "menu": {
     "title": "Speisekarte",

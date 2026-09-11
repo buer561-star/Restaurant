@@ -86,57 +86,80 @@
     "note": "Alerji veya hassasiyetleriniz varsa lütfen bize söyleyin. Memnuniyetle yardımcı oluruz."
   },
   "home": {
-    "eyebrow": "Restoran · Winterthur",
-    "heroTitle": "Winterthur'da Uygur mutfağı",
-    "heroText": "El çekmesi erişteyle lagman, kazandan polo, kömür ateşinden kuzu. Hepsi helal, hepsi kendi mutfağımızda.",
+    "heroEyebrow": "Winterthur · Uygur mutfağı",
+    "heroTitle": "Kaşgar'dan Winterthur'a",
+    "heroLine": "El çekmesi erişte. Kömür ateşinde kuzu. Önce çay.",
     "heroCta": "Masa ayırt",
-    "heroSecondary": "Menüye bak",
-    "signatureEyebrow": "Tavsiye",
-    "signatureTitle": "Çoğu misafir bunlarla başlıyor",
-    "firstTimeEyebrow": "İlk kez mi geliyorsunuz?",
-    "firstTimeTitle": "Başlangıç için üç yemek",
-    "firstTimeText": "Uygur mutfağı Çin'in batısındaki Sincan'dan, eski İpek Yolu'ndan gelir. Bir yanda erişte ve wok, diğer yanda pilav, kebap ve mantı vardır. Tanımıyorsanız bu üçünü sipariş edin.",
-    "firstTimeSteps": {
-      "1": {
+    "heroSecondary": "Menü",
+    "scroll": "Kaydır",
+    "openingSoon": "Açılış {date}",
+    "chaptersEyebrow": "Menü",
+    "chaptersTitle": "Bilinmesi gereken beş yemek",
+    "chapters": {
+      "lagman": {
+        "kicker": "El çekmesi",
         "title": "Lagman",
-        "text": "Elde çekilmiş buğday eriştesi; kuzu, biber, domates ve kereviz ile."
+        "text": "Bir şerit buğday hamuru çekilir, katlanır, tekrar çekilir; ip inceliğine gelene kadar. Yanında woktan kuzu, biber, domates ve kereviz."
       },
-      "2": {
+      "polo": {
+        "kicker": "Kazandan",
         "title": "Polo",
-        "text": "Kazanda pişmiş kuzulu, havuçlu, kuru üzümlü pirinç."
+        "text": "Pirinç, kuzu, havuç ve kuru üzüm kazanda birlikte pişer; pirinç yağı ve havucun tatlılığını çekene kadar."
       },
-      "3": {
+      "kebab": {
+        "kicker": "Kömür ateşinde",
         "title": "Şiş kebap",
-        "text": "Kömür ateşinde kuzu kuşbaşı, kimyon ve pul biberle."
+        "text": "Kuzu kuşbaşı, kimyon, pul biber. Korun üstünde iki dakika, sonra doğrudan masaya."
+      },
+      "manti": {
+        "kicker": "Elle kapatılmış",
+        "title": "Mantı",
+        "text": "Kuzu ve soğanlı buharda mantı, altı adet, yoğurtla. Her biri tek tek kapatılır."
+      },
+      "tea": {
+        "kicker": "Önce",
+        "title": "Çay",
+        "text": "Demlikte safran, gül goncası, kakule ve goji. Menüden önce masaya gelir."
       }
     },
-    "firstTimeCta": "Tüm yemekleri gör",
-    "craftEyebrow": "Mutfak",
-    "craftTitle": "Sabah hamur, siparişle erişte",
-    "craftText": "Lagman hamuru sabah yoğrulur, öğlene kadar dinlenir. Sipariş gelince çekilir. Mantı ve çüçüreyi elle kapatırız. Kebap ızgaradan doğrudan masaya gider.",
-    "craftPoints": {
-      "1": "Hamur her gün taze, hazır ürün yok",
-      "2": "Helal sertifikalı tedarikçilerden kuzu ve tavuk",
-      "3": "Kimyon, pul biber, safran, gül yaprağı"
+    "chapterCta": "Menüye git",
+    "roadEyebrow": "Yol",
+    "roadTitle": "Tabağa kadar 5.300 kilometre",
+    "roadText": "Kaşgar, Turfan ve Ürümçi, Çin'in batısındaki eski İpek Yolu üzerindedir. Tarifler, baharatlar ve duvarlarımızdaki fotoğraflar oradan gelir.",
+    "roadDistance": "KAŞGAR → WINTERTHUR · 5.328 KM",
+    "stops": {
+      "kashgar": "Kaşgar",
+      "turpan": "Turfan",
+      "urumqi": "Ürümçi",
+      "winterthur": "Winterthur"
     },
-    "cultureEyebrow": "Mekân",
-    "cultureTitle": "Duvarda Kaşgar, Ürümçi ve Turfan",
-    "cultureText": "Sütunlardaki kumaşlar Sincan ikatı, şapkalar doppa. Fotoğraflar Kaşgar'daki Heytgah Camii'ni, Tanrı Dağları önündeki Ürümçi'yi ve Turfan harabelerini gösterir. Önce çay gelir, sipariş sonra.",
-    "cultureCta": "Hakkımızda",
-    "sharingEyebrow": "Sofra için",
-    "sharingTitle": "Paylaşmak için",
-    "sharingText": "İki–üç kişilik dapanji, iki kişilik ızgara tabağı, dilimlenmiş göşnan. Dokuz ve üzeri gruplar için menü hazırlarız.",
-    "sharingCta": "Gruplar & Etkinlikler",
-    "visitEyebrow": "Ziyaret",
-    "visitTitle": "Çalışma saatleri ve ulaşım",
-    "visitText": "Winterthur Ana Garı'na birkaç dakika.",
-    "reviewsEyebrow": "Yorumlar",
-    "reviewsTitle": "Misafirlerimiz ne diyor",
-    "reviewsPending": "Yakında açılıyoruz. İlk yorumlar açılıştan sonra burada görünecek.",
-    "instagramTitle": "Mutfaktan",
-    "instagramText": "Instagram ve TikTok'ta yeni fotoğraf ve videolar.",
-    "bookBannerTitle": "Masa ayırtın",
-    "bookBannerText": "Online, e-posta ile onay. İki saat öncesine kadar iptal."
+    "craftEyebrow": "Mutfak",
+    "craftTitle": "Hamur siparişinizle çekilir",
+    "craftText": "Sabah yoğrulur, öğlene kadar dinlenir. Ancak siparişle şerit çekilir ve kaynar suya girer. Paket erişteden üç dakika uzun sürer. Farkı tadınca anlarsınız.",
+    "craftFacts": {
+      "1": {
+        "n": "3",
+        "t": "dakika hamurdan erişteye"
+      },
+      "2": {
+        "n": "%100",
+        "t": "helal"
+      },
+      "3": {
+        "n": "0",
+        "t": "mutfakta hazır ürün"
+      }
+    },
+    "roomEyebrow": "Mekân",
+    "roomTitle": "İkat, mermer, sıcak ışık",
+    "roomText": "Sütunlardaki kumaşlar Sincan ikatı, şapkalar doppa. Duvarlarda Kaşgar'daki Heytgah Camii, Ürümçi ve Turfan asılı.",
+    "roomCta": "Hakkımızda",
+    "bookEyebrow": "Rezervasyon",
+    "bookTitle": "Sizin için bir masa",
+    "bookText": "Tarih ve kişi sayısını seçin, gerisini biz hallederiz. E-posta ile onay, iki saat öncesine kadar iptal.",
+    "sharingTitle": "Bütün sofra için",
+    "sharingText": "İki–üç kişilik dapanji, iki kişilik ızgara tabağı, dilimlenmiş göşnan. Dokuz kişiden itibaren menü hazırlarız.",
+    "sharingCta": "Gruplar & etkinlikler"
   },
   "menu": {
     "title": "Menü",

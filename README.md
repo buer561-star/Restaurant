@@ -82,6 +82,26 @@ Neue Bilder für weitere Gerichte: Datei ablegen und in `src/data/menu.ts` beim 
 
 Innenraum- und Aussenaufnahmen (`public/images/interior/`) sind echte Fotos. Teamfotos: Platzhalter auf der Seite «Über uns» (`teamPlaceholder`).
 
+## Videos auf der Startseite
+
+Der Hero und die Sektion «Die Küche» spielen kurze, stumme Loops aus `public/videos/`:
+
+| Datei | Verwendung |
+| --- | --- |
+| `hero.webm`, `hero.mp4` | Hero (Nudeln ziehen) |
+| `grill.webm`, `grill.mp4` | Sektion «Die Küche» (Grill) |
+| `hero-poster.webp`, `grill-poster.webp` | Standbild, bis das Video geladen ist, und Ersatz bei «Bewegung reduzieren» oder Datensparmodus |
+
+Die aktuellen Clips sind KI-generiert (Kling 2.6 über ElevenLabs), 5 Sekunden, 1280×720, 24 fps. Eigene Clips aus Higgsfield, Runway oder einer echten Aufnahme einfach unter **gleichem Dateinamen** ablegen. Empfohlen: 5 bis 10 Sekunden, ohne Ton, 16:9, WebM (VP9) plus MP4 (H.264) für Safari, je unter 1 MB:
+
+```bash
+ffmpeg -i clip.mov -an -vf "scale=1280:-2,fps=24" -c:v libvpx-vp9 -b:v 0 -crf 36 public/videos/hero.webm
+ffmpeg -i clip.mov -an -vf "scale=1280:-2,fps=24" -c:v libx264 -crf 27 -pix_fmt yuv420p -movflags +faststart public/videos/hero.mp4
+ffmpeg -ss 2 -i clip.mov -frames:v 1 -vf scale=1600:-2 hero-poster.jpg   # dann als WebP speichern
+```
+
+Fehlt eine Videodatei, zeigt die Seite automatisch nur das Standbild.
+
 ## Speisekarte und Preise pflegen
 
 Eine Datei: `src/data/menu.ts`. Jede Sektion hat Titel in drei Sprachen und eine Liste von Gerichten mit Name, Beschreibung, Preis (CHF), Tags (`signature`, `spicy`, `vegan`, `vegetarian`, `sharing`, `handmade`), Allergenen und optionalem Bild. Änderungen wirken nach dem nächsten Deploy auf Speisekarte, Startseite, Galerie und im schema.org-Markup.

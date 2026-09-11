@@ -16,11 +16,11 @@ function isoDay(offsetDays: number): string {
   return new Intl.DateTimeFormat("sv-SE", { timeZone: "Europe/Zurich" }).format(d); // YYYY-MM-DD
 }
 
-export function BookingForm({ initialDay }: { initialDay: string }) {
+export function BookingForm({ initialDay, initialGuests = 2 }: { initialDay: string; initialGuests?: number }) {
   const t = useTranslations("reservation");
   const locale = useLocale();
   const [day, setDay] = useState(initialDay);
-  const [guests, setGuests] = useState(2);
+  const [guests, setGuests] = useState(Math.min(Math.max(initialGuests, B.minGuests), B.maxGuestsOnline));
   const [time, setTime] = useState<string | null>(null);
   const [avail, setAvail] = useState<{ key: string; data: Avail } | null>(null);
   const [state, action, pending] = useActionState<BookingResult | null, FormData>(createReservation, null);

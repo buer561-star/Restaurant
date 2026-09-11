@@ -23,6 +23,8 @@
   --font-display: var(--font-cinzel), "Cinzel", "Trajan Pro", Georgia, serif;
   --font-serif: var(--font-source-serif), "Source Serif 4", Georgia, serif;
   --font-sans: var(--font-figtree), "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-arabic: var(--font-arabic), "Noto Naskh Arabic", "Noto Sans Arabic", serif;
+  --color-navy-deep: #071426;
 
   --shadow-soft: 0 1px 2px rgb(11 31 58 / 0.06), 0 8px 24px rgb(11 31 58 / 0.08);
   --shadow-lift: 0 2px 4px rgb(11 31 58 / 0.08), 0 16px 40px rgb(11 31 58 / 0.14);
@@ -169,6 +171,23 @@ p { text-wrap: pretty; }
 .chip:disabled { opacity: 0.35; cursor: not-allowed; text-decoration: line-through; }
 
 }
+
+/* ---------- Motion (Startseite) ---------- */
+.reveal { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: no-preference) {
+  .reveal { opacity: 0; transform: translateY(28px); transition: opacity 900ms cubic-bezier(.2,.65,.2,1), transform 900ms cubic-bezier(.2,.65,.2,1); transition-delay: var(--reveal-delay, 0ms); }
+  .reveal.is-visible { opacity: 1; transform: none; }
+  .kenburns { animation: kenburns 28s ease-in-out infinite alternate; }
+  .marquee-track { animation: marquee 60s linear infinite; }
+  .drift { animation: drift 9s ease-in-out infinite alternate; }
+}
+@keyframes kenburns { from { transform: scale(1.02) translate3d(0,0,0); } to { transform: scale(1.12) translate3d(-1.5%, -1%, 0); } }
+@keyframes marquee { from { transform: translate3d(0,0,0); } to { transform: translate3d(-50%,0,0); } }
+@keyframes drift { from { transform: translate3d(0,0,0); } to { transform: translate3d(0,-10px,0); } }
+.uyghur { font-family: var(--font-arabic); direction: rtl; unicode-bidi: isolate; }
+.grain::after { content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .06; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/></filter><rect width='160' height='160' filter='url(%23n)' opacity='.9'/></svg>"); }
+.gold-text { background: linear-gradient(100deg, #e6c85a 0%, #c9a227 40%, #f0dc8c 60%, #a8861c 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.hairline { height: 1px; background: linear-gradient(90deg, transparent, rgb(201 162 39 / .7), transparent); }
 
 /* Print: menu */
 @media print {

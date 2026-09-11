@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
-import { Cinzel, Figtree, Source_Serif_4 } from "next/font/google";
+import { Cinzel, Figtree, Noto_Naskh_Arabic, Source_Serif_4 } from "next/font/google";
 import { routing, type Locale } from "@/i18n/routing";
 import { Footer } from "@/components/Footer";
 import { StickyCta } from "@/components/StickyCta";
@@ -12,6 +12,7 @@ import { RestaurantJsonLd } from "@/components/JsonLd";
 
 const cinzel = Cinzel({ subsets: ["latin"], weight: ["500", "600"], variable: "--font-cinzel", display: "swap" });
 const sourceSerif = Source_Serif_4({ subsets: ["latin", "latin-ext"], weight: ["400", "600"], style: ["normal", "italic"], variable: "--font-source-serif", display: "swap" });
+const notoArabic = Noto_Naskh_Arabic({ subsets: ["arabic"], weight: ["400", "600"], variable: "--font-arabic", display: "swap" });
 const figtree = Figtree({ subsets: ["latin", "latin-ext"], weight: ["400", "500", "600", "700"], variable: "--font-figtree", display: "swap" });
 
 export function generateStaticParams() {
@@ -41,7 +42,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
   setRequestLocale(locale as Locale);
 
   return (
-    <html lang={locale} className={`${cinzel.variable} ${sourceSerif.variable} ${figtree.variable} h-full`}>
+    <html lang={locale} className={`${cinzel.variable} ${sourceSerif.variable} ${figtree.variable} ${notoArabic.variable} h-full`}>
       <body className="flex min-h-full flex-col">
         <RestaurantJsonLd locale={locale as Locale} />
         <NextIntlClientProvider>

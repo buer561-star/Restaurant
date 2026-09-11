@@ -6,7 +6,7 @@ import { Header } from "@/components/Header";
 import { PageHero } from "@/components/PageHero";
 import { BookingForm } from "@/components/BookingForm";
 import { Hours } from "@/components/Hours";
-import { todayZurich } from "@/lib/booking";
+import { todayZurich, isValidDay } from "@/lib/booking";
 import { site } from "@/data/site";
 
 export const dynamic = "force-dynamic";
@@ -17,8 +17,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return { title: t("reservationTitle"), description: t("reservationDescription"), alternates: localizedAlternates("/reservation", locale as Locale) };
 }
 
-export default async function ReservationPage({ params }: { params: Promise<{ locale: string }> }) {
+export default async function ReservationPage({ params, searchParams }: { params: Promise<{ locale: string }>; searchParams: Promise<{ day?: string; guests?: string }> }) {
   const { locale } = await params;
+  const sp = await searchParams;
+  const day = sp.day && isValidDay(sp.day) ? sp.day : todayZurich();
+  const guests = Number(sp.guests) || 2;
   setRequestLocale(locale as Locale);
   const t = await getTranslations("reservation");
   const tc = await getTranslations("common");
@@ -29,7 +32,7 @@ export default async function ReservationPage({ params }: { params: Promise<{ lo
       <main>
         <PageHero eyebrow="Karahan" title={t("title")} lead={t("intro")} />
         <div className="container-page grid gap-10 py-12 sm:py-16 lg:grid-cols-[1.5fr_1fr]">
-          <BookingForm initialDay={todayZurich()} />
+          <BookingForm initialDay={day} initialGuests={guests} />
           <aside className="space-y-8 lg:pl-4">
             <div>
               <h2 className="eyebrow">{tc("hours")}</h2>

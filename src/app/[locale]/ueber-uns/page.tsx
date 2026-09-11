@@ -88,7 +88,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
               {images.kitchenGrill.placeholder && <PlaceholderBadge />}
             </div>
             <div>
-              <SectionHeading eyebrow="Karahan" title={th("bookBannerTitle")} text={th("bookBannerText")} />
+              <SectionHeading eyebrow="Karahan" title={th("bookTitle")} text={th("bookText")} />
               <div className="mt-8 flex flex-wrap gap-3">
                 <Link href="/reservation" className="btn btn-gold">{tn("book")}</Link>
                 <Link href="/speisekarte" className="btn btn-outline">{tn("menu")}</Link>

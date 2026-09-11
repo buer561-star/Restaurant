@@ -86,57 +86,80 @@
     "note": "Please tell us about allergies or intolerances. We are happy to advise."
   },
   "home": {
-    "eyebrow": "Restaurant · Winterthur",
-    "heroTitle": "Uyghur cuisine in Winterthur",
-    "heroText": "Laghman with hand-pulled noodles, polo from the kazan, lamb from the charcoal grill. All halal, all made in our kitchen.",
+    "heroEyebrow": "Winterthur · Uyghur cuisine",
+    "heroTitle": "From Kashgar to Winterthur",
+    "heroLine": "Hand-pulled noodles. Lamb over charcoal. Tea first.",
     "heroCta": "Book a table",
-    "heroSecondary": "See the menu",
-    "signatureEyebrow": "Recommended",
-    "signatureTitle": "Where most people start",
-    "firstTimeEyebrow": "First time here?",
-    "firstTimeTitle": "Three dishes to begin with",
-    "firstTimeText": "Uyghur cooking comes from Xinjiang in western China, on the old Silk Road. It has noodles and wok from one side, pilaf, kebab and dumplings from the other. If it is new to you, order these three.",
-    "firstTimeSteps": {
-      "1": {
+    "heroSecondary": "Menu",
+    "scroll": "Scroll",
+    "openingSoon": "Opening {date}",
+    "chaptersEyebrow": "The menu",
+    "chaptersTitle": "Five dishes worth knowing",
+    "chapters": {
+      "lagman": {
+        "kicker": "Hand-pulled",
         "title": "Laghman",
-        "text": "Wheat noodles pulled by hand, with lamb, peppers, tomato and celery."
+        "text": "A rope of wheat dough is stretched, folded and stretched again until it is as thin as string. Served with lamb, peppers, tomato and celery from the wok."
       },
-      "2": {
+      "polo": {
+        "kicker": "From the kazan",
         "title": "Polo",
-        "text": "Rice with lamb, carrots and raisins, cooked in the kazan."
+        "text": "Rice, lamb, carrots and raisins cook together in the kazan until the rice has taken up the fat and the sweetness of the carrots."
       },
-      "3": {
+      "kebab": {
+        "kicker": "Over charcoal",
         "title": "Shish kebab",
-        "text": "Cubed lamb over charcoal, with cumin and chili."
+        "text": "Cubed lamb, cumin, chili. Two minutes over the embers, then straight to the table."
+      },
+      "manti": {
+        "kicker": "Folded by hand",
+        "title": "Manti",
+        "text": "Steamed dumplings with lamb and onion, six pieces, with yogurt. Each one closed by hand."
+      },
+      "tea": {
+        "kicker": "First",
+        "title": "Tea",
+        "text": "Saffron, rose buds, cardamom and goji in the pot. It reaches the table before the menu does."
       }
     },
-    "firstTimeCta": "See all dishes",
-    "craftEyebrow": "Kitchen",
-    "craftTitle": "Dough in the morning, noodles to order",
-    "craftText": "The laghman dough is kneaded in the morning and rests until midday. It is only pulled once the order comes in. Manti and chüchüre are folded by hand. The kebab goes from the grill straight to the table.",
-    "craftPoints": {
-      "1": "Dough fresh every day, no ready-made products",
-      "2": "Lamb and chicken from halal-certified suppliers",
-      "3": "Cumin, chili, saffron, rose petals"
+    "chapterCta": "See the menu",
+    "roadEyebrow": "The route",
+    "roadTitle": "5,300 kilometres to the plate",
+    "roadText": "Kashgar, Turpan and Ürümqi lie on the old Silk Road in western China. That is where the recipes, the spices and the pictures on our walls come from.",
+    "roadDistance": "KASHGAR → WINTERTHUR · 5,328 KM",
+    "stops": {
+      "kashgar": "Kashgar",
+      "turpan": "Turpan",
+      "urumqi": "Ürümqi",
+      "winterthur": "Winterthur"
     },
-    "cultureEyebrow": "The room",
-    "cultureTitle": "Kashgar, Ürümqi and Turpan on the walls",
-    "cultureText": "The fabrics on the columns are ikat from Xinjiang, the caps are called doppa. The pictures show the Heytgah mosque in Kashgar, Ürümqi below the Tianshan and the ruins of Turpan. Tea comes first, ordering comes after.",
-    "cultureCta": "More about us",
-    "sharingEyebrow": "For the table",
-    "sharingTitle": "For sharing",
-    "sharingText": "Dapanji for two to three people, mixed grill for two, göshnan cut in wedges. For groups of nine or more we put a menu together.",
-    "sharingCta": "Groups & Events",
-    "visitEyebrow": "Visit",
-    "visitTitle": "Hours and directions",
-    "visitText": "A few minutes from Winterthur main station.",
-    "reviewsEyebrow": "Voices",
-    "reviewsTitle": "What guests say",
-    "reviewsPending": "We are opening soon. The first reviews will appear here after opening.",
-    "instagramTitle": "From the kitchen",
-    "instagramText": "New pictures and videos on Instagram and TikTok.",
-    "bookBannerTitle": "Book a table",
-    "bookBannerText": "Online, confirmation by email. Cancel up to two hours before."
+    "craftEyebrow": "The kitchen",
+    "craftTitle": "The dough is pulled when you order",
+    "craftText": "Kneaded in the morning, rested until midday. Only with your order is the rope pulled and dropped into boiling water. It takes three minutes longer than noodles from a packet. You can taste it.",
+    "craftFacts": {
+      "1": {
+        "n": "3",
+        "t": "minutes from dough to noodle"
+      },
+      "2": {
+        "n": "100 %",
+        "t": "halal"
+      },
+      "3": {
+        "n": "0",
+        "t": "ready-made products in the kitchen"
+      }
+    },
+    "roomEyebrow": "The room",
+    "roomTitle": "Ikat, marble, warm light",
+    "roomText": "The fabrics on the columns are ikat from Xinjiang, the caps are called doppa. On the walls hang the Heytgah mosque in Kashgar, Ürümqi and Turpan.",
+    "roomCta": "More about us",
+    "bookEyebrow": "Reservation",
+    "bookTitle": "A table for you",
+    "bookText": "Choose a date and number of guests, we do the rest. Confirmation by email, cancel up to two hours before.",
+    "sharingTitle": "For the whole table",
+    "sharingText": "Dapanji for two to three, mixed grill for two, göshnan in wedges. From nine guests we put a menu together.",
+    "sharingCta": "Groups & events"
   },
   "menu": {
     "title": "Menu",
