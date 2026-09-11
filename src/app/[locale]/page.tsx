@@ -94,7 +94,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                 return (
                   <li key={c.key} className="grid items-center gap-8 lg:grid-cols-12 lg:gap-12">
                     <Reveal as="figure" className={`relative m-0 ${flip ? "lg:col-span-6 lg:col-start-7 lg:order-2" : "lg:col-span-6"}`}>
-                      <LoopVideo sources={videoSources(c.key)} poster={c.image} alt={t(`chapters.${c.key}.title`)} sizes="(min-width:1024px) 50vw, 100vw" className="aspect-[4/5] sm:aspect-[16/10] lg:aspect-[4/5]" />
+                      <LoopVideo sources={videoSources(c.key)} poster={c.image} alt={t(`chapters.${c.key}.title`)} sizes="(min-width:1024px) 50vw, 100vw" className="aspect-[4/3] sm:aspect-[16/10]" />
                       <span className="uyghur pointer-events-none absolute -bottom-6 right-4 select-none text-[4.5rem] leading-none text-gold/90 sm:-bottom-8 sm:text-[6rem]" aria-hidden="true">{c.uy}</span>
                     </Reveal>
                     <Reveal delay={150} className={`${flip ? "lg:col-span-5 lg:col-start-1 lg:order-1" : "lg:col-span-5 lg:col-start-8"}`}>
