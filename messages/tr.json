@@ -86,46 +86,36 @@
     "note": "Alerji veya hassasiyetleriniz varsa lütfen bize söyleyin. Memnuniyetle yardımcı oluruz."
   },
   "home": {
-    "heroEyebrow": "Winterthur · Uygur mutfağı",
     "heroTitle": "Kaşgar'dan Winterthur'a",
-    "heroLine": "El çekmesi erişte. Kömür ateşinde kuzu. Önce çay.",
+    "heroLine": "Uygur restoranı. Açılış {date}.",
     "heroCta": "Masa ayırt",
     "heroSecondary": "Menü",
     "scroll": "Kaydır",
-    "openingSoon": "Açılış {date}",
-    "chaptersEyebrow": "Menü",
-    "chaptersTitle": "Bilinmesi gereken beş yemek",
     "chapters": {
       "lagman": {
-        "kicker": "El çekmesi",
         "title": "Lagman",
         "text": "Bir şerit buğday hamuru çekilir, katlanır, tekrar çekilir; ip inceliğine gelene kadar. Yanında woktan kuzu, biber, domates ve kereviz."
       },
       "polo": {
-        "kicker": "Kazandan",
         "title": "Polo",
         "text": "Pirinç, kuzu, havuç ve kuru üzüm kazanda birlikte pişer; pirinç yağı ve havucun tatlılığını çekene kadar."
       },
       "kebab": {
-        "kicker": "Kömür ateşinde",
         "title": "Şiş kebap",
-        "text": "Kuzu kuşbaşı, kimyon, pul biber. Korun üstünde iki dakika, sonra doğrudan masaya."
+        "text": "Kimyonlu ve pul biberli kuzu kuşbaşı. Korun üstünde iki dakika, sonra doğrudan masaya."
       },
       "manti": {
-        "kicker": "Elle kapatılmış",
         "title": "Mantı",
-        "text": "Kuzu ve soğanlı buharda mantı, altı adet, yoğurtla. Her biri tek tek kapatılır."
+        "text": "Kuzu ve soğanlı buharda mantı, altı adet, yoğurtla. Her biri tek tek elle kapatılır."
       },
       "tea": {
-        "kicker": "Önce",
         "title": "Çay",
         "text": "Demlikte safran, gül goncası, kakule ve goji. Menüden önce masaya gelir."
       }
     },
     "chapterCta": "Menüye git",
-    "roadEyebrow": "Yol",
-    "roadTitle": "Tabağa kadar 5.300 kilometre",
-    "roadText": "Kaşgar, Turfan ve Ürümçi, Çin'in batısındaki eski İpek Yolu üzerindedir. Tarifler, baharatlar ve duvarlarımızdaki fotoğraflar oradan gelir.",
+    "roadTitle": "5.328 kilometre",
+    "roadText": "Kaşgar, Winterthur'a bu kadar uzak. Kaşgar, Turfan ve Ürümçi, Çin'in batısındaki eski İpek Yolu üzerindedir. Tarifler, baharatlar ve duvarlarımızdaki fotoğraflar oradan gelir.",
     "roadDistance": "KAŞGAR → WINTERTHUR · 5.328 KM",
     "stops": {
       "kashgar": "Kaşgar",
@@ -133,7 +123,6 @@
       "urumqi": "Ürümçi",
       "winterthur": "Winterthur"
     },
-    "craftEyebrow": "Mutfak",
     "craftTitle": "Hamur siparişinizle çekilir",
     "craftText": "Sabah yoğrulur, öğlene kadar dinlenir. Ancak siparişle şerit çekilir ve kaynar suya girer. Paket erişteden üç dakika uzun sürer. Farkı tadınca anlarsınız.",
     "craftFacts": {
@@ -150,12 +139,10 @@
         "t": "mutfakta hazır ürün"
       }
     },
-    "roomEyebrow": "Mekân",
-    "roomTitle": "İkat, mermer, sıcak ışık",
+    "roomTitle": "Mekân",
     "roomText": "Sütunlardaki kumaşlar Sincan ikatı, şapkalar doppa. Duvarlarda Kaşgar'daki Heytgah Camii, Ürümçi ve Turfan asılı.",
     "roomCta": "Hakkımızda",
-    "bookEyebrow": "Rezervasyon",
-    "bookTitle": "Sizin için bir masa",
+    "bookTitle": "Masa ayırtın",
     "bookText": "Tarih ve kişi sayısını seçin, gerisini biz hallederiz. E-posta ile onay, iki saat öncesine kadar iptal.",
     "sharingTitle": "Bütün sofra için",
     "sharingText": "İki–üç kişilik dapanji, iki kişilik ızgara tabağı, dilimlenmiş göşnan. Dokuz kişiden itibaren menü hazırlarız.",

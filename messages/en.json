@@ -86,46 +86,36 @@
     "note": "Please tell us about allergies or intolerances. We are happy to advise."
   },
   "home": {
-    "heroEyebrow": "Winterthur · Uyghur cuisine",
     "heroTitle": "From Kashgar to Winterthur",
-    "heroLine": "Hand-pulled noodles. Lamb over charcoal. Tea first.",
+    "heroLine": "Uyghur restaurant. Opening {date}.",
     "heroCta": "Book a table",
     "heroSecondary": "Menu",
     "scroll": "Scroll",
-    "openingSoon": "Opening {date}",
-    "chaptersEyebrow": "The menu",
-    "chaptersTitle": "Five dishes worth knowing",
     "chapters": {
       "lagman": {
-        "kicker": "Hand-pulled",
         "title": "Laghman",
         "text": "A rope of wheat dough is stretched, folded and stretched again until it is as thin as string. Served with lamb, peppers, tomato and celery from the wok."
       },
       "polo": {
-        "kicker": "From the kazan",
         "title": "Polo",
         "text": "Rice, lamb, carrots and raisins cook together in the kazan until the rice has taken up the fat and the sweetness of the carrots."
       },
       "kebab": {
-        "kicker": "Over charcoal",
         "title": "Shish kebab",
-        "text": "Cubed lamb, cumin, chili. Two minutes over the embers, then straight to the table."
+        "text": "Cubed lamb with cumin and chili. Two minutes over the embers, then straight to the table."
       },
       "manti": {
-        "kicker": "Folded by hand",
         "title": "Manti",
         "text": "Steamed dumplings with lamb and onion, six pieces, with yogurt. Each one closed by hand."
       },
       "tea": {
-        "kicker": "First",
         "title": "Tea",
         "text": "Saffron, rose buds, cardamom and goji in the pot. It reaches the table before the menu does."
       }
     },
     "chapterCta": "See the menu",
-    "roadEyebrow": "The route",
-    "roadTitle": "5,300 kilometres to the plate",
-    "roadText": "Kashgar, Turpan and Ürümqi lie on the old Silk Road in western China. That is where the recipes, the spices and the pictures on our walls come from.",
+    "roadTitle": "5,328 kilometres",
+    "roadText": "That is how far Kashgar is from Winterthur. Kashgar, Turpan and Ürümqi lie on the old Silk Road in western China. That is where the recipes, the spices and the pictures on our walls come from.",
     "roadDistance": "KASHGAR → WINTERTHUR · 5,328 KM",
     "stops": {
       "kashgar": "Kashgar",
@@ -133,7 +123,6 @@
       "urumqi": "Ürümqi",
       "winterthur": "Winterthur"
     },
-    "craftEyebrow": "The kitchen",
     "craftTitle": "The dough is pulled when you order",
     "craftText": "Kneaded in the morning, rested until midday. Only with your order is the rope pulled and dropped into boiling water. It takes three minutes longer than noodles from a packet. You can taste it.",
     "craftFacts": {
@@ -150,12 +139,10 @@
         "t": "ready-made products in the kitchen"
       }
     },
-    "roomEyebrow": "The room",
-    "roomTitle": "Ikat, marble, warm light",
+    "roomTitle": "The room",
     "roomText": "The fabrics on the columns are ikat from Xinjiang, the caps are called doppa. On the walls hang the Heytgah mosque in Kashgar, Ürümqi and Turpan.",
     "roomCta": "More about us",
-    "bookEyebrow": "Reservation",
-    "bookTitle": "A table for you",
+    "bookTitle": "Book a table",
     "bookText": "Choose a date and number of guests, we do the rest. Confirmation by email, cancel up to two hours before.",
     "sharingTitle": "For the whole table",
     "sharingText": "Dapanji for two to three, mixed grill for two, göshnan in wedges. From nine guests we put a menu together.",
